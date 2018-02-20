@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Globosphere Technologies Pvt Ltd</title>
+<title>Page-not-found | Globosphere Technologies Pvt Ltd</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="keywords" content="etoken, safnet etoken, gemalto etoken, safnet, gemalto, etoken pro, etoken 5110, etoken 5200, etoken 5700, aladin etoken, etoken pro 72k, etoken pro 32k, safnet etoken 5110, safnet etoken 5100, usb etoken, usb token, etoken driver, safnet etoken driver">
     <meta name="description" content="Globosphere Technologies India Pvt Ltd">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-<link rel="icon" type="image/x-icon" href="images/globosphere.png"> 
+<link rel="icon" type="image/x-icon" href="../images/globosphere.png"> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body id="top">
@@ -85,7 +85,7 @@
     <ul class="clear">
       <li><a href="../index.html">Home</a></li>
         <li><a href="solutions.html">Our Solutions</a></li>
-      <li><a class="drop" href="#">Our Products</a>
+      <li class="active"><a class="drop" href="#">Our Products</a>
         <ul>
           <li><a href="dsc.html">Digital Signtaure Certificates</a></li>
           <li><a class="drop" href="#">USB Tokens</a>
@@ -111,7 +111,7 @@
         <ul>
           <li><a href="http://www.globosphere.in/blogs" target="_blank">Blogs</a></li>
           <li><a href="team.html">Articles</a></li>
-          <li  class="active"><a href="team.html">Partners</a></li>
+          <li><a href="team.html">Partners</a></li>
           
         </ul>
       </li>
@@ -127,11 +127,7 @@
 <div class="wrapper bgded overlay" style="background-image:url('../images/demo/backgrounds/head.jpeg');">
   <div id="breadcrumb" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Company Profile</a></li>
-      <li><a href="#">Team</a></li>
-    </ul>
+    
     <!-- ################################################################################################ -->
   </div>
 </div>
@@ -144,9 +140,7 @@
     <!-- ################################################################################################ -->
     <div class="content"> 
       <!-- ################################################################################################ -->
-   <img src="../images/coming-soon.png" alt="Biometrics" style="width: 100%;"/>
-      <!-- ################################################################################################ -->
-      <!-- ################################################################################################ -->
+        <img src="../images/page-not-found.png" alt="Biometrics" style="width: 100%;"/>
       <!-- ################################################################################################ -->
     </div>
     <!-- ################################################################################################ -->
@@ -219,56 +213,3 @@
 <script src="layout/scripts/jquery.flexslider-min.js"></script>
 </body>
 </html>
-<!-- ################################################################################################ -->
-    <style>
-
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-@media (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-</style>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->

@@ -1,14 +1,13 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-<title>Globosphere Technologies Pvt Ltd</title>
+<title>SafeNet eToken 5110 | Gemalto | Globosphere Technologies Pvt Ltd</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="keywords" content="etoken, safnet etoken, gemalto etoken, safnet, gemalto, etoken pro, etoken 5110, etoken 5200, etoken 5700, aladin etoken, etoken pro 72k, etoken pro 32k, safnet etoken 5110, safnet etoken 5100, usb etoken, usb token, etoken driver, safnet etoken driver">
     <meta name="description" content="Globosphere Technologies India Pvt Ltd">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-<link rel="icon" type="image/x-icon" href="images/globosphere.png"> 
+<link rel="icon" type="image/x-icon" href="../images/globosphere.png"> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body id="top">
@@ -86,7 +85,7 @@
     <ul class="clear">
       <li><a href="../index.html">Home</a></li>
         <li><a href="solutions.html">Our Solutions</a></li>
-      <li><a class="drop" href="#">Our Products</a>
+      <li  class="active"><a class="drop" href="#">Our Products</a>
         <ul>
           <li><a href="dsc.html">Digital Signtaure Certificates</a></li>
           <li><a class="drop" href="#">USB Tokens</a>
@@ -100,9 +99,9 @@
           <li><a href="biometrics.html">Biometric Devices</a></li>
         </ul>
       </li>
-      <li class="active"><a class="drop" href="#">Our Company</a>
+      <li><a class="drop" href="#">Our Company</a>
         <ul>
-          <li ><a href="about.html">About Us</a></li>
+          <li><a href="about.html">About Us</a></li>
           <li><a href="team.html">Team</a></li>
           <li><a href="team.html">Recognition</a></li>
           
@@ -129,10 +128,9 @@
   <div id="breadcrumb" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Company Profule</a></li>
-      <li><a href="#">About Us</a></li>
-     
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Gemalto/Safnet</a></li>
     </ul>
     <!-- ################################################################################################ -->
   </div>
@@ -144,39 +142,33 @@
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
+     
+      <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
     <div class="content"> 
       <!-- ################################################################################################ -->
-      <div id="spec1">
-            
-                     <h4><br>We Globosphere Technologies India Pvt Ltd started writing our history in Feb 2014, since then we have helped 1000+ clients including business giants such as Maruti Suzuki, FedEx, Asian Paints, etc. from all over India to transact and authenticate securely over the web with their unique identities.<br><br>
-                     We are offering FREEDSC (Class 2 Signing Certificate valid for 1 Year) to all individuals. These certificates are valid in Government Websites,GST, Tax Filing and Tender Websites. These certificates are provided by Certificate.Digital, a Licensed Certifying Authority         under CCA (Government of India) Simply, acquire a approved USB Device and download your Certificate today.  We are Licensed Registration         Authority to issue Digital Signature Certificates under the IT Act, 2000 in India.Digital Signature Certificates or DSC or Digital Signature         are being adopted by various government agencies and now is a statutory requirement in various applications. We offers different class of         certificates to help organization and individuals secure online transactions with legal validity as per the Indian IT Act, 2000.</h4>
+      <h1>SafeNet eToken 5110 Token-Based Authentication</h1>
+      <img class="imgr borderedbox inspace-5" src="../images/usbtoken/safenet4.jpg" alt="">
+      <p>Ultra strong authentication, security in a convenient, portable form factor</p>
+      <p>To protect identities and critical business applications in today’s digital business environment, organizations need to ensure access to online and network resources is always secure, while maintaining compliance with security and privacy regulations.</p>
+      <img class="imgl borderedbox inspace-5" src="../images/usbtoken/welcome-img.png" alt="">
+      <p>SafeNet eToken 5110 offers two-factor authentication for secure remote and network access, as well as certificate-based support for advanced security applications, including digital signature and pre-boot authentication</a>.</p>
+     <br><br><br><br>
+      <h1>Two-Factor Authentication you can Trust</h1>
     
-                   </div>        
-                 </div>					                      
-                     <div id="contact">
-                        <div id="address">
-                             <i class="	fa fa-map-marker" style="font-size:28px;color:#002266;"></i>
-                             <p>A-1, Kewal Park Extension<br> Azadpur, Delhi<br> PIN-110033</p>
-                        </div>
-                        <div id="email">
-                                <i class="	fa fa-envelope" style="font-size:28px;color:#002266;"></i>
-                                <p>contact@globosphere.in <br> www.globosphere.in</p>
-                        </div>
-                        <div id="phone">
-                             <i class="	fa fa-phone" style="font-size:28px;color:#002266;"></i>
-                             <p>01127672681 <br></p>
-                             
-                       </div>
-      </div>
-    </main>
-      </div>
+    <p1>SafeNet eToken 5110 is a portable two-factor USB authenticator with advanced smart card technology. Certificate-based technology generates and stores credentials-such as private keys, passwords, and digital certificates inside the protected environment of the smart card chip. To authenticate, users must supply both their personal SafeNet eToken authenticator and password, providing a critical second level of security beyond simple passwords to protect valuable digital business resources.</p1><br><br>
+    <h1>Future-Proofed and Scalable with Centralized Management Control</h1>
+    <p>SafeNet eToken 5110 is based on the advanced Gemalto IDCore platform, and integrates seamlessly with third party applications through SafeNet Authentication development tools, supports SafeNet PKI and password management applications and software development tools, and allows customization of applications and extension of functionality through on-board Java applets. SafeNet eToken 5110 is supported by SafeNet Authentication Manager (excluding SafeNet eToken 5110 CC), which reduces IT overhead by streamlining all authentication operations, including deployment, provisioning, enrollment, and ongoing maintenance, as well as offering support for lost tokens. SafeNet eToken 5110 is also supported by SafeNet Authentication Client for full local admin and support for advanced token management, events and deployment.</p>
+      <br>
+      <a href="#" style="padding: 15px 50px; color: white; background-color: #E9365A">Enquiry</a>
       <!-- ################################################################################################ -->
-   
+    </div>
     <!-- ################################################################################################ -->
     <!-- / main body -->
     <div class="clear"></div>
-  
-
+  </main>
+</div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -85,9 +86,9 @@
     <ul class="clear">
       <li><a href="../index.html">Home</a></li>
         <li><a href="solutions.html">Our Solutions</a></li>
-      <li  class="active"><a class="drop" href="#">Our Products</a>
+      <li><a class="drop" href="#">Our Products</a>
         <ul>
-          <li ><a href="dsc.html">Digital Signtaure Certificates</a></li>
+          <li><a href="dsc.html">Digital Signtaure Certificates</a></li>
           <li><a class="drop" href="#">USB Tokens</a>
             <ul>
               <li><a href="gemalto-safenet.html">Gemalto/SafeNet</a></li>
@@ -99,9 +100,9 @@
           <li><a href="biometrics.html">Biometric Devices</a></li>
         </ul>
       </li>
-      <li><a class="drop" href="#">Our Company</a>
+      <li class="active"><a class="drop" href="#">Our Company</a>
         <ul>
-          <li><a href="about.html">About Us</a></li>
+          <li ><a href="about.html">About Us</a></li>
           <li><a href="team.html">Team</a></li>
           <li><a href="team.html">Recognition</a></li>
           
@@ -129,8 +130,9 @@
     <!-- ################################################################################################ -->
     <ul>
       <li><a href="#">Home</a></li>
-      <li><a href="#">Our Products</a></li>
-        <li><a href="#">Digital Signature Certificate</a></li>
+      <li><a href="#">Company Profule</a></li>
+      <li><a href="#">About Us</a></li>
+     
     </ul>
     <!-- ################################################################################################ -->
   </div>
@@ -142,147 +144,34 @@
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
-    <div class="tab-content">
-        <div class="content three_quarter first tab-pane fade in active" id="class2sign"> 
-          <!-- ################################################################################################ -->
-          <h2 style="color: #E9365A">Class 2 Sign </h2>
-
-          <img class="imgl borderedbox inspace-5" style="height: 350px" src="../images/dsc/photo_2018-02-16_12-02-52.jpg"alt="">
-          <p>A Class 2 digital Signature Certificate now helps you to file your Income Tax Returns and Filing of E Forms with the Ministry of Corporate Affairs. Class 2A Digital Signature Certificates are Issued only to Individuals. File your Income Tax Return Hassle Free. No need to send Hand Signed Return acknowledgement copies to CPC Bangalore. Further E Filing of Income Tax Returns is mandatory for all assessee under the Income Tax Act who are liable to audit u/s 44AB (Turnover/Sales/ Gross receipts of Business Exceeding 1 Crore and 25 Lakhs in case of Professionals.</p>
-          <p>Ministry of Corporate Affairs (MCA) 21 – E Governance Project required all documents to be filed by the corporates electronically by authenticating with a Digital Signature Certificate of Class 2 or above Category</p>
-          <br><br>
-          <a href="#" style="padding: 15px 50px; color: white; background-color: #E9365A">Enquiry</a>
-        <br><br><br><br>
-
-         <h3>Where it is used:</h3>
-         <ul>
-             <li>E Filing of Income Tax Return</li>
-             <li>Filing of E Forms with Ministry of Corporate Affairs</li>
-             <li>Signing Form 16 / 16A – TRACES</li>
-             <li>Signing of PDF Documents</li>
-             <li>Signing E Mails</li>
-         </ul>
-
-
-          <!-- ################################################################################################ -->
-        </div>
-        <div class="content three_quarter first tab-pane fade" id="class2signencrypt"> 
-          <!-- ################################################################################################ -->
-          <h2 style="color: #E9365A">Class 2 Sign & Encrypt </h2>
-
-          <img class="imgl borderedbox inspace-5" style="height: 350px" src="../images/dsc/class 2 encrpt.png" alt="">
-          <p>A Class 2 digital Signature Certificate now helps you to file your Income Tax Returns and Filing of E Forms with the Ministry of Corporate Affairs. Class 2A Digital Signature Certificates are Issued only to Individuals. File your Income Tax Return Hassle Free. No need to send Hand Signed Return acknowledgement copies to CPC Bangalore. Further E Filing of Income Tax Returns is mandatory for all assessee under the Income Tax Act who are liable to audit u/s 44AB (Turnover/Sales/ Gross receipts of Business Exceeding 1 Crore and 25 Lakhs in case of Professionals.</p>
-          <p>Ministry of Corporate Affairs (MCA) 21 – E Governance Project required all documents to be filed by the corporates electronically by authenticating with a Digital Signature Certificate of Class 2 or above Category</p>
-          <br><br>
-          <a href="#" style="padding: 15px 50px; color: white; background-color: #E9365A">Enquiry</a>
-        <br><br><br><br>
-
-         <h3>Where it is used:</h3>
-         <ul>
-             <li>E Filing of Income Tax Return</li>
-             <li>Filing of E Forms with Ministry of Corporate Affairs</li>
-             <li>Signing Form 16 / 16A – TRACES</li>
-             <li>Signing of PDF Documents</li>
-             <li>Signing E Mails</li>
-         </ul>
-
-
-          <!-- ################################################################################################ -->
-        </div>
-        <div class="content three_quarter first tab-pane fade" id="class3sign"> 
-          <!-- ################################################################################################ -->
-          <h2 style="color: #E9365A">Class 3 Sign</h2>
-
-          <img class="imgl borderedbox inspace-5" style="height: 350px" src="../images/dsc/class%203.png" alt="">
-          <p>Class 3 Digital Signature Certificate ensures convenient and enhanced Security in Filing E Tenders. A digital Signature Certificates authenticates the identity of the person filing the Tender Information. A Class 3 Digital signature Certificate provides highest Level of assurance in the RCAI (Root Certifying Authority of India) hierarchy setup under the Controller of Certifying Authority.</p>
-          <p>Class 3 individual Certificates are issued only to individuals based on rigorous identity validation process. Further File your Patents, Trademarks & IPR documents securely on www.ipindia.nic.in</p>
-          <br><br><br>
-          <a href="#" style="padding: 15px 50px; color: white; background-color: #E9365A">Enquiry</a>
-        <br><br><br><br>
-
-         <h3>Where it is used:</h3>
-         <ul>
-             <li>Patents, Trademarks Filings (www.ipcinida.nic.in)</li>
-             <li>E Tendering</li>
-             <li>E Procurement</li>
-             <li>E Bidding</li>
-             <li>E Mail Signing</li>
-             <li>PDF Signing</li>
-         </ul>
-
-
-          <!-- ################################################################################################ -->
-        </div>
-        <div class="content three_quarter first tab-pane fade" id="class3signencrypt"> 
-          <!-- ################################################################################################ -->
-          <h2 style="color: #E9365A">Class 3 Sign & Encrypt</h2>
-
-          <img class="imgl borderedbox inspace-5" style="height: 350px" src="../images/dsc/class%203%20encrypt.png" alt="">
-          <p>Class 3 Digital Signature Certificate ensures convenient and enhanced Security in Filing E Tenders. A digital Signature Certificates authenticates the identity of the person filing the Tender Information. A Class 3 Digital signature Certificate provides highest Level of assurance in the RCAI (Root Certifying Authority of India) hierarchy setup under the Controller of Certifying Authority..</p>
-          <p>Class 3 individual Certificates are issued only to individuals based on rigorous identity validation process. Further File your Patents, Trademarks & IPR documents securely on www.ipindia.nic.in</p>
-          <br><br><br>
-          <a href="#" style="padding: 15px 50px; color: white; background-color: #E9365A">Enquiry</a>
-        <br><br><br><br>
-
-         <h3>Where it is used:</h3>
-         <ul>
-             <li>E Filing of Income Tax Return</li>
-             <li>Filing of E Forms with Ministry of Corporate Affairs</li>
-             <li>Signing Form 16 / 16A – TRACES</li>
-             <li>Signing of PDF Documents</li>
-             <li>Signing E Mails</li>
-         </ul>
-
-
-          <!-- ################################################################################################ -->
-        </div>
-        <div class="content three_quarter first tab-pane fade" id="dgft"> 
-          <!-- ################################################################################################ -->
-          <h2 style="color: #E9365A">DGFT (IET)</h2>
-
-          <img class="imgl borderedbox inspace-5" style="height: 350px" src="../images/dsc/photo_2018-02-16_12-02-52.jpg" alt="">
-            <p>SafeEXIM, a solution developed exclusively for the Exporter-Importer community in India to enable them to interact and transact with the DGFT online with security and confidence on the DGFT Portal (www.dgft.gov.in). SafeEXIM uses advanced cryptographic technologies including Digital Certificates and Public Key Infrastructure (PKI) to bring one of the first-of-its-kind solutions to the Indian Market.</p>
-            <p>SafeEXIM can be used only by an Exporter or Importer registered with the DGFT. It is not open to any third party. Any person from the EXIM organization who is authorized to transact with DGFT on behalf of the organization or sign any documents that need to be submitted to the DGFT can use SafeEXIM.</p>
-          <br><br>
-          <a href="#" style="padding: 15px 50px; color: white; background-color: #E9365A">Enquiry</a>
-        <br><br><br><br>
-
-         <h3>Where it is used:</h3>
-         <ul>
-             <li>DGFT Portal www.dgft.gov.in</li>
-         </ul>
-
-
-          <!-- ################################################################################################ -->
-        </div>
-    </div>
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <div class="sidebar one_quarter"> 
+    <div class="content"> 
       <!-- ################################################################################################ -->
-      <h3 style="color: #E9365A">Digital Signature Certificate</h3>
-      <nav class="sdb_holder">
-        <ul class="nav nav-tabs">
-          <li class="active"><a data-toggle="tab" href="#class2sign">Class 2 Sign</a></li>
-            <li><a data-toggle="tab" href="#class2signencrypt">Class 2 Sign & Encrypt</a></li>
-          <li><a data-toggle="tab" href="#class3sign">Class 3 Sign</a></li>
-          <li><a data-toggle="tab" href="#class3signencrypt">Class 3 Sign & Encrypt</a></li>
-          <li><a data-toggle="tab" href="#dgft">DGFT (IET)</a></li>
-        </ul>
-      </nav>
-      <div class="sdb_holder">
-        
+      <img src="../images/coming-soon.png" alt="Biometrics" style="width: 100%;"/><br><br>   
+                 </div>					                      
+                     <div id="contact">
+                        <div id="address">
+                             <i class="	fa fa-map-marker" style="font-size:28px;color:#002266;"></i>
+                             <p>A-1, Kewal Park Extension<br> Azadpur, Delhi<br> PIN-110033</p>
+                        </div>
+                        <div id="email">
+                                <i class="	fa fa-envelope" style="font-size:28px;color:#002266;"></i>
+                                <p>contact@globosphere.in <br> www.globosphere.in</p>
+                        </div>
+                        <div id="phone">
+                             <i class="	fa fa-phone" style="font-size:28px;color:#002266;"></i>
+                             <p>01127672681 <br></p>
+                             
+                       </div>
       </div>
-      <div class="sdb_holder">
-        
+    </main>
       </div>
       <!-- ################################################################################################ -->
-    </div>
+   
     <!-- ################################################################################################ -->
     <!-- / main body -->
     <div class="clear"></div>
-  </main>
-</div>
+  
+
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->

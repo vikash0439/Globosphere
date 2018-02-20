@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Globosphere Technologies Pvt Ltd</title>
+<title>Support | Globosphere Technologies Pvt Ltd</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="keywords" content="etoken, safnet etoken, gemalto etoken, safnet, gemalto, etoken pro, etoken 5110, etoken 5200, etoken 5700, aladin etoken, etoken pro 72k, etoken pro 32k, safnet etoken 5110, safnet etoken 5100, usb etoken, usb token, etoken driver, safnet etoken driver">
     <meta name="description" content="Globosphere Technologies India Pvt Ltd">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-<link rel="icon" type="image/x-icon" href="images/globosphere.png"> 
+<link rel="icon" type="image/x-icon" href="../images/globosphere.png"> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body id="top">
@@ -115,8 +115,8 @@
           
         </ul>
       </li>
-      <li><a href="support.html">Support</a></li>
-      <li  class="active"><a href="contact.html">Contact Us</a></li>
+      <li  class="active"><a href="support.html">Support</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
     </ul>
     <!-- ################################################################################################ -->
   </nav>
@@ -128,9 +128,8 @@
   <div id="breadcrumb" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Contact Us</a></li>
-      
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="#">Support</a></li>
     </ul>
     <!-- ################################################################################################ -->
   </div>
@@ -140,46 +139,7 @@
 <!-- ################################################################################################ -->
 <div class="wrapper row3">
   <main class="hoc container clear"> 
-    <!-- main body -->
-    <!-- ################################################################################################ -->
-    <div class="content"> 
-      <!-- ################################################################################################ -->
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.2654803001788!2d77.17352361508438!3d28.711611082386625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d01f58ce4f567%3A0xf00319a4ed542f99!2sSoftSecure+Infotech!5e0!3m2!1sen!2sin!4v1516016772593" width="95%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-     
-      <div id="comments">
-        <h2></h2>
-        
-        <h2>Contact us here</h2>
-        <form action="#" method="post">
-          <div class="one_third first">
-            <label for="name">Name <span>*</span></label>
-            <input type="text" name="name" id="name" value="" size="22" required>
-          </div>
-          <div class="one_third">
-            <label for="email">Email-ID <span>*</span></label>
-            <input type="email" name="email" id="email" value="" size="22" required>
-          </div>
-          <div class="one_third">
-            <label for="url">Phone</label>
-            <input type="url" name="url" id="url" value="" size="22">
-          </div>
-          <div class="block clear">
-            <label for="comment">Your Comment</label>
-            <textarea name="comment" id="comment" cols="25" rows="10"></textarea>
-          </div>
-          <div>
-            <input type="submit" name="submit" value="Submit Form">
-            &nbsp;
-            <input type="reset" name="reset" value="Reset Form">
-          </div>
-        </form>
-      </div>
-      <!-- ################################################################################################ -->
-    </div>
-    <!-- ################################################################################################ -->
-    <!-- / main body -->
-    <div class="clear"></div>
+     <img src="../images/coming-soon.png" alt="Biometrics" style="width: 100%;"/>
   </main>
 </div>
 <!-- ################################################################################################ -->

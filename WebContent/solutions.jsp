@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Globosphere Technologies Pvt Ltd</title>
+<title>Solutions | Globosphere Technologies Pvt Ltd</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="keywords" content="etoken, safnet etoken, gemalto etoken, safnet, gemalto, etoken pro, etoken 5110, etoken 5200, etoken 5700, aladin etoken, etoken pro 72k, etoken pro 32k, safnet etoken 5110, safnet etoken 5100, usb etoken, usb token, etoken driver, safnet etoken driver">
     <meta name="description" content="Globosphere Technologies India Pvt Ltd">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-<link rel="icon" type="image/x-icon" href="images/globosphere.png"> 
+<link rel="icon" type="image/x-icon" href="../images/globosphere.png"> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body id="top">
@@ -85,7 +85,7 @@
     <ul class="clear">
       <li><a href="../index.html">Home</a></li>
         <li><a href="solutions.html">Our Solutions</a></li>
-      <li><a class="drop" href="#">Our Products</a>
+      <li  class="active"><a class="drop" href="#">Our Products</a>
         <ul>
           <li><a href="dsc.html">Digital Signtaure Certificates</a></li>
           <li><a class="drop" href="#">USB Tokens</a>
@@ -115,7 +115,7 @@
           
         </ul>
       </li>
-      <li  class="active"><a href="support.html">Support</a></li>
+      <li><a href="support.html">Support</a></li>
       <li><a href="contact.html">Contact Us</a></li>
     </ul>
     <!-- ################################################################################################ -->
@@ -128,8 +128,8 @@
   <div id="breadcrumb" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Support</a></li>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="#">Solutions</a></li>
     </ul>
     <!-- ################################################################################################ -->
   </div>
@@ -139,13 +139,23 @@
 <!-- ################################################################################################ -->
 <div class="wrapper row3">
   <main class="hoc container clear"> 
-     <img src="../images/coming-soon.png" alt="Biometrics" style="width: 100%;"/>
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="content"> 
+      <!-- ################################################################################################ -->
+      <img src="../images/coming-soon.png" alt="Biometrics" style="width: 100%;"/>
+                    </div>
+      <!-- ################################################################################################ -->
+   
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
   </main>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row4" style="background-image:url('images/demo/backgrounds/foot.jpg');">
+<div class="wrapper row4" style="background-image:url('../images/demo/backgrounds/foot.jpg');">
   <footer id="footer" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div class="one_third first">

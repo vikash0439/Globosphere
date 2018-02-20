@@ -1,7 +1,9 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
-<title>Globosphere Technologies Pvt Ltd</title>
+<title>Globosphere Technologies India Pvt Ltd</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="keywords" content="etoken, safnet etoken, gemalto etoken, safnet, gemalto, etoken pro, etoken 5110, etoken 5200, etoken 5700, aladin etoken, etoken pro 72k, etoken pro 32k, safnet etoken 5110, safnet etoken 5100, usb etoken, usb token, etoken driver, safnet etoken driver">
@@ -83,26 +85,26 @@
   <nav id="mainav" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul class="clear">
-      <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="pages/solutions.html">Our Solutions</a></li>
+      <li class="active"><a href="index">Home</a></li>
+        <li><a href="solutions">Our Solutions</a></li>
       <li><a class="drop" href="#">Our Products</a>
         <ul>
-          <li><a href="pages/dsc.html">Digital Signtaure Certificates</a></li>
+          <li><a href="dsc">Digital Signtaure Certificates</a></li>
           <li><a class="drop" href="#">USB Tokens</a>
             <ul>
-              <li><a href="pages/gemalto-safenet.html">Gemalto/SafeNet</a></li>
-              <li><a href="pages/epass-2003.html">ePass 2003(Auto)</a></li>
-              <li><a href="pages/proxkey.html">WD Proxkey</a></li>
+              <li><a href="gemalto-safenet">Gemalto/SafeNet</a></li>
+              <li><a href="epass-2003">ePass 2003(Auto)</a></li>
+              <li><a href="proxkey">WD Proxkey</a></li>
              
             </ul>
           </li>
-          <li><a href="pages/biometrics.html">Biometric Devices</a></li>
+          <li><a href="biometrics">Biometric Devices</a></li>
         </ul>
       </li>
       <li><a class="drop" href="#">Our Company</a>
         <ul>
-          <li><a href="pages/about.html">About Us</a></li>
-          <li><a href="pages/team.html">Team</a></li>
+          <li><a href="about">About Us</a></li>
+          <li><a href="team">Team</a></li>
           <li><a href="pages/team.html">Recognition</a></li>
           
         </ul>
@@ -303,7 +305,7 @@
         <h4 class="nospace btmspace-10 font-x1 uppercase">Token</h4>
         
         <hr>
-        <p>ePass 2003 Token is a password protected USB e-Token, FEITIAN Technologies Co., Ltd. is the manufacturer of this token. ePass 2003 e-Token can be used for storing your Digital Signature in India, so that Digital Signature is never lost when computer is formatted or internet explorer changed.&hellip;</p>
+        <p>SafeNet eToken 5110 is a portable two-factor USB authenticator with advanced smart card technology. Certificate-based technology generates and stores credentials-such as private keys, passwords, and digital certificates inside the protected environment of the smart card chip. &hellip;</p>
         <p class="nospace"><a href="#">Read More &raquo;</a></p>
       </article>
       <article class="one_third"><a href="#"><img class="btmspace-30" src="images/demo/biometric.jpg" alt=""></a>
@@ -331,7 +333,7 @@
   <article class="hoc container clear center"> 
     <!-- ################################################################################################ -->
     <h6 class="heading">Want to know more, get in touch with us. Drop a message</h6>
-    <p class="nospace"><a class="btn" href="contact.html">Contact Us</a></p>
+    <p class="nospace"><a class="btn" href="pages/contact.html">Contact Us</a></p>
     <!-- ################################################################################################ -->
   </article>
 </div>
@@ -398,5 +400,6 @@
 <script src="layout/scripts/jquery.backtotop.js"></script>
 <script src="layout/scripts/jquery.mobilemenu.js"></script>
 <script src="layout/scripts/jquery.flexslider-min.js"></script>
+
 </body>
 </html>

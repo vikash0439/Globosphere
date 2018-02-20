@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Globosphere Technologies Pvt Ltd</title>
+<title>Digital Signatures Certificates | Globosphere Technologies Pvt Ltd</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="keywords" content="etoken, safnet etoken, gemalto etoken, safnet, gemalto, etoken pro, etoken 5110, etoken 5200, etoken 5700, aladin etoken, etoken pro 72k, etoken pro 32k, safnet etoken 5110, safnet etoken 5100, usb etoken, usb token, etoken driver, safnet etoken driver">
-    <meta name="description" content="Globosphere Technologies India Pvt Ltd">
+<meta name="description" content="Globosphere Technologies India Pvt Ltd">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-<link rel="icon" type="image/x-icon" href="images/globosphere.png"> 
+<link rel="icon" type="image/x-icon" href="../images/globosphere.png"> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body id="top">
@@ -87,7 +87,7 @@
         <li><a href="solutions.html">Our Solutions</a></li>
       <li  class="active"><a class="drop" href="#">Our Products</a>
         <ul>
-          <li><a href="dsc.html">Digital Signtaure Certificates</a></li>
+          <li ><a href="dsc.html">Digital Signtaure Certificates</a></li>
           <li><a class="drop" href="#">USB Tokens</a>
             <ul>
               <li><a href="gemalto-safenet.html">Gemalto/SafeNet</a></li>
@@ -103,8 +103,7 @@
         <ul>
           <li><a href="about.html">About Us</a></li>
           <li><a href="team.html">Team</a></li>
-          <li><a href="team.html">Recognition</a></li>
-          
+          <li><a href="team.html">Recognition</a></li>        
         </ul>
       </li>
       <li><a class="drop" href="#">Insights</a>
@@ -129,8 +128,8 @@
     <!-- ################################################################################################ -->
     <ul>
       <li><a href="#">Home</a></li>
-      <li><a href="#">Products</a></li>
-      <li><a href="#">Gemalto/Safnet</a></li>
+      <li><a href="#">Our Products</a></li>
+        <li><a href="#">Digital Signature Certificate</a></li>
     </ul>
     <!-- ################################################################################################ -->
   </div>
@@ -142,25 +141,140 @@
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
-     
-      <!-- ################################################################################################ -->
+    <div class="tab-content">
+        <div class="content three_quarter first tab-pane fade in active" id="class2sign"> 
+          <!-- ################################################################################################ -->
+          <h2 style="color: #E9365A">Class 2 Sign </h2>
+
+          <img class="imgl borderedbox inspace-5" style="height: 350px" src="../images/dsc/photo_2018-02-16_12-02-52.jpg"alt="">
+          <p>A Class 2 digital Signature Certificate now helps you to file your Income Tax Returns and Filing of E Forms with the Ministry of Corporate Affairs. Class 2A Digital Signature Certificates are Issued only to Individuals. File your Income Tax Return Hassle Free. No need to send Hand Signed Return acknowledgement copies to CPC Bangalore. Further E Filing of Income Tax Returns is mandatory for all assessee under the Income Tax Act who are liable to audit u/s 44AB (Turnover/Sales/ Gross receipts of Business Exceeding 1 Crore and 25 Lakhs in case of Professionals.</p>
+          <p>Ministry of Corporate Affairs (MCA) 21 – E Governance Project required all documents to be filed by the corporates electronically by authenticating with a Digital Signature Certificate of Class 2 or above Category</p>
+          <br><br>
+          <a href="#" style="padding: 15px 50px; color: white; background-color: #E9365A">Enquiry</a>
+        <br><br><br><br>
+
+         <h3>Where it is used:</h3>
+         <ul>
+             <li>E Filing of Income Tax Return</li>
+             <li>Filing of E Forms with Ministry of Corporate Affairs</li>
+             <li>Signing Form 16 / 16A – TRACES</li>
+             <li>Signing of PDF Documents</li>
+             <li>Signing E Mails</li>
+         </ul>
+
+
+          <!-- ################################################################################################ -->
+        </div>
+        <div class="content three_quarter first tab-pane fade" id="class2signencrypt"> 
+          <!-- ################################################################################################ -->
+          <h2 style="color: #E9365A">Class 2 Sign & Encrypt </h2>
+
+          <img class="imgl borderedbox inspace-5" style="height: 350px" src="../images/dsc/class 2 encrpt.png" alt="">
+          <p>A Class 2 digital Signature Certificate now helps you to file your Income Tax Returns and Filing of E Forms with the Ministry of Corporate Affairs. Class 2A Digital Signature Certificates are Issued only to Individuals. File your Income Tax Return Hassle Free. No need to send Hand Signed Return acknowledgement copies to CPC Bangalore. Further E Filing of Income Tax Returns is mandatory for all assessee under the Income Tax Act who are liable to audit u/s 44AB (Turnover/Sales/ Gross receipts of Business Exceeding 1 Crore and 25 Lakhs in case of Professionals.</p>
+          <p>Ministry of Corporate Affairs (MCA) 21 – E Governance Project required all documents to be filed by the corporates electronically by authenticating with a Digital Signature Certificate of Class 2 or above Category</p>
+          <br><br>
+          <a href="#" style="padding: 15px 50px; color: white; background-color: #E9365A">Enquiry</a>
+        <br><br><br><br>
+
+         <h3>Where it is used:</h3>
+         <ul>
+             <li>E Filing of Income Tax Return</li>
+             <li>Filing of E Forms with Ministry of Corporate Affairs</li>
+             <li>Signing Form 16 / 16A – TRACES</li>
+             <li>Signing of PDF Documents</li>
+             <li>Signing E Mails</li>
+         </ul>
+
+
+          <!-- ################################################################################################ -->
+        </div>
+        <div class="content three_quarter first tab-pane fade" id="class3sign"> 
+          <!-- ################################################################################################ -->
+          <h2 style="color: #E9365A">Class 3 Sign</h2>
+
+          <img class="imgl borderedbox inspace-5" style="height: 350px" src="../images/dsc/class%203.png" alt="">
+          <p>Class 3 Digital Signature Certificate ensures convenient and enhanced Security in Filing E Tenders. A digital Signature Certificates authenticates the identity of the person filing the Tender Information. A Class 3 Digital signature Certificate provides highest Level of assurance in the RCAI (Root Certifying Authority of India) hierarchy setup under the Controller of Certifying Authority.</p>
+          <p>Class 3 individual Certificates are issued only to individuals based on rigorous identity validation process. Further File your Patents, Trademarks & IPR documents securely on www.ipindia.nic.in</p>
+          <br><br><br>
+          <a href="#" style="padding: 15px 50px; color: white; background-color: #E9365A">Enquiry</a>
+        <br><br><br><br>
+
+         <h3>Where it is used:</h3>
+         <ul>
+             <li>Patents, Trademarks Filings (www.ipcinida.nic.in)</li>
+             <li>E Tendering</li>
+             <li>E Procurement</li>
+             <li>E Bidding</li>
+             <li>E Mail Signing</li>
+             <li>PDF Signing</li>
+         </ul>
+
+
+          <!-- ################################################################################################ -->
+        </div>
+        <div class="content three_quarter first tab-pane fade" id="class3signencrypt"> 
+          <!-- ################################################################################################ -->
+          <h2 style="color: #E9365A">Class 3 Sign & Encrypt</h2>
+
+          <img class="imgl borderedbox inspace-5" style="height: 350px" src="../images/dsc/class%203%20encrypt.png" alt="">
+          <p>Class 3 Digital Signature Certificate ensures convenient and enhanced Security in Filing E Tenders. A digital Signature Certificates authenticates the identity of the person filing the Tender Information. A Class 3 Digital signature Certificate provides highest Level of assurance in the RCAI (Root Certifying Authority of India) hierarchy setup under the Controller of Certifying Authority..</p>
+          <p>Class 3 individual Certificates are issued only to individuals based on rigorous identity validation process. Further File your Patents, Trademarks & IPR documents securely on www.ipindia.nic.in</p>
+          <br><br><br>
+          <a href="#" style="padding: 15px 50px; color: white; background-color: #E9365A">Enquiry</a>
+        <br><br><br><br>
+
+         <h3>Where it is used:</h3>
+         <ul>
+             <li>E Filing of Income Tax Return</li>
+             <li>Filing of E Forms with Ministry of Corporate Affairs</li>
+             <li>Signing Form 16 / 16A – TRACES</li>
+             <li>Signing of PDF Documents</li>
+             <li>Signing E Mails</li>
+         </ul>
+
+
+          <!-- ################################################################################################ -->
+        </div>
+        <div class="content three_quarter first tab-pane fade" id="dgft"> 
+          <!-- ################################################################################################ -->
+          <h2 style="color: #E9365A">DGFT (IET)</h2>
+
+          <img class="imgl borderedbox inspace-5" style="height: 350px" src="../images/dsc/photo_2018-02-16_12-02-52.jpg" alt="">
+            <p>SafeEXIM, a solution developed exclusively for the Exporter-Importer community in India to enable them to interact and transact with the DGFT online with security and confidence on the DGFT Portal (www.dgft.gov.in). SafeEXIM uses advanced cryptographic technologies including Digital Certificates and Public Key Infrastructure (PKI) to bring one of the first-of-its-kind solutions to the Indian Market.</p>
+            <p>SafeEXIM can be used only by an Exporter or Importer registered with the DGFT. It is not open to any third party. Any person from the EXIM organization who is authorized to transact with DGFT on behalf of the organization or sign any documents that need to be submitted to the DGFT can use SafeEXIM.</p>
+          <br><br>
+          <a href="#" style="padding: 15px 50px; color: white; background-color: #E9365A">Enquiry</a>
+        <br><br><br><br>
+
+         <h3>Where it is used:</h3>
+         <ul>
+             <li>DGFT Portal www.dgft.gov.in</li>
+         </ul>
+
+
+          <!-- ################################################################################################ -->
+        </div>
+    </div>
     <!-- ################################################################################################ -->
     <!-- ################################################################################################ -->
-    <div class="content"> 
+    <div class="sidebar one_quarter"> 
       <!-- ################################################################################################ -->
-      <h1>SafeNet eToken 5110 Token-Based Authentication</h1>
-      <img class="imgr borderedbox inspace-5" src="../images/usbtoken/safenet4.jpg" alt="">
-      <p>Ultra strong authentication, security in a convenient, portable form factor</p>
-      <p>To protect identities and critical business applications in today’s digital business environment, organizations need to ensure access to online and network resources is always secure, while maintaining compliance with security and privacy regulations.</p>
-      <img class="imgl borderedbox inspace-5" src="../images/usbtoken/welcome-img.png" alt="">
-      <p>SafeNet eToken 5110 offers two-factor authentication for secure remote and network access, as well as certificate-based support for advanced security applications, including digital signature and pre-boot authentication</a>.</p>
-     <br><br><br><br>
-      <h1>Two-Factor Authentication you can Trust</h1>
-    
-    <p1>SafeNet eToken 5110 is a portable two-factor USB authenticator with advanced smart card technology. Certificate-based technology generates and stores credentials-such as private keys, passwords, and digital certificates inside the protected environment of the smart card chip. To authenticate, users must supply both their personal SafeNet eToken authenticator and password, providing a critical second level of security beyond simple passwords to protect valuable digital business resources.</p1><br><br>
-    <h1>Future-Proofed and Scalable with Centralized Management Control</h1>
-    <p>SafeNet eToken 5110 is based on the advanced Gemalto IDCore platform, and integrates seamlessly with third party applications through SafeNet Authentication development tools, supports SafeNet PKI and password management applications and software development tools, and allows customization of applications and extension of functionality through on-board Java applets. SafeNet eToken 5110 is supported by SafeNet Authentication Manager (excluding SafeNet eToken 5110 CC), which reduces IT overhead by streamlining all authentication operations, including deployment, provisioning, enrollment, and ongoing maintenance, as well as offering support for lost tokens. SafeNet eToken 5110 is also supported by SafeNet Authentication Client for full local admin and support for advanced token management, events and deployment.</p>
-      
+      <h3 style="color: #E9365A">Digital Signature Certificate</h3>
+      <nav class="sdb_holder">
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#class2sign">Class 2 Sign</a></li>
+            <li><a data-toggle="tab" href="#class2signencrypt">Class 2 Sign & Encrypt</a></li>
+          <li><a data-toggle="tab" href="#class3sign">Class 3 Sign</a></li>
+          <li><a data-toggle="tab" href="#class3signencrypt">Class 3 Sign & Encrypt</a></li>
+          <li><a data-toggle="tab" href="#dgft">DGFT (IET)</a></li>
+        </ul>
+      </nav>
+      <div class="sdb_holder">
+        
+      </div>
+      <div class="sdb_holder">
+        
+      </div>
       <!-- ################################################################################################ -->
     </div>
     <!-- ################################################################################################ -->
