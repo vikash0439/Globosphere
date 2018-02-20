@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="keywords" content="etoken, safnet etoken, gemalto etoken, safnet, gemalto, etoken pro, etoken 5110, etoken 5200, etoken 5700, aladin etoken, etoken pro 72k, etoken pro 32k, safnet etoken 5110, safnet etoken 5100, usb etoken, usb token, etoken driver, safnet etoken driver">
     <meta name="description" content="Globosphere Technologies India Pvt Ltd">
-<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 <link rel="icon" type="image/x-icon" href="images/globosphere.png"> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -42,7 +42,7 @@
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_left">
-      <h1><a href="../index.html"><img src="../images/logo.jpg"></a></h1>
+      <h1><a href="index.html"><img src="images/logo.jpg"></a></h1>
     </div>
     <div id="quickinfo" class="fl_right">
       <!--moving text-->
@@ -85,7 +85,7 @@
   <nav id="mainav" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul class="clear">
-      <li><a href="../index.html">Home</a></li>
+      <li><a href="index.html">Home</a></li>
         <li><a href="solutions.html">Our Solutions</a></li>
       <li  class="active"><a class="drop" href="#">Our Products</a>
         <ul>
@@ -126,11 +126,11 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('../images/demo/backgrounds/head.jpeg');">
+<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/head.jpeg');">
   <div id="breadcrumb" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul>
-      <li><a href="../index.html">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="#">Our Products</a></li>
         <li><a href="#">WD Proxkey</a></li>
     </ul>
@@ -149,7 +149,7 @@
           <!-- ################################################################################################ -->
           <h2 style="color: #E9365A">WatchData ProxKey </h2>
 
-          <img class="imgl borderedbox inspace-5" style="height: 350px; margin-right: 5%;" src="../images/proxkey/proxkey.jpg"alt="">
+          <img class="imgl borderedbox inspace-5" style="height: 350px; margin-right: 5%;" src="images/proxkey/proxkey.jpg"alt="">
           <h2>FEATURES</h2>
             <ul >
                 <li>	 Auto Driver Update</li>
@@ -182,99 +182,99 @@
           <!-- ################################################################################################ -->
           <h2 style="color: #E9365A">Technical Specifications </h2>
 
-          <img class="imgl borderedbox inspace-5" style="height: 350px" src="../images/dsc/class 2 encrpt.png" alt="">
+         
           <div class="row">
-        	<div class="col-lg-4 col-md-4 col-sm-4">
+        	<div class="content one_quarter">
             <div class="specification-section-inner-col">
-            	<center><img src="../images/proxkey/os.jpg" alt="Supported Operating Systems" class="img-responsive"/></center>
+            	<center><img src="images/proxkey/os.jpg" alt="Supported Operating Systems" class="img-responsive"/></center>
             	<h1>Supported OS</h1>
                 <div class="line-feature"></div>
                 <p>Windows 7/8/10, Windows server 2012, MAC, Linux, Ubantu</p>
             </div>
             </div>	
-            <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="content one_quarter">
             <div class="specification-section-inner-col">
-            	<center><img src="../images/proxkey/supported-browsers.jpg" alt="Supported Browsers" class="img-responsive"/></center>
+            	<center><img src="images/proxkey/supported-browsers.jpg" alt="Supported Browsers" class="img-responsive"/></center>
             	<h1>Supported Browsers </h1>
                 <div class="line-feature"></div>
                 <p> IE6.0-IE11, Firefox, chrome, Safari </p>
             </div>
             </div>	
-            <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="content one_quarter">
             <div class="specification-section-inner-col">
-            	<center><img src="../images/proxkey/apn.jpg" alt="API Standards" class="img-responsive"/></center>
+            	<center><img src="images/proxkey/apn.jpg" alt="API Standards" class="img-responsive"/></center>
             	<h1>API Standards</h1>
                 <div class="line-feature"></div>
                 <p> PKCS#11 V2.10,  Microsoft CAPI 2.0, Microsoft CNG, X.509 V3, SSL v3 </p>
             </div>
             </div>		
-            <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="content one_quarter">
             <div class="specification-section-inner-col">
-            	<center><img src="../images/proxkey/iso.jpg" alt="ISO Specification" class="img-responsive"/></center>
+            	<center><img src="images/proxkey/iso.jpg" alt="ISO Specification" class="img-responsive"/></center>
             	<h1>ISO Specification</h1>
                 <div class="line-feature"></div>
                 <p> ISO 7816-4 (Smart Card) </p>
             </div>
             </div>		
-            <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="content one_quarter">
             <div class="specification-section-inner-col">
-            	<center><img src="../images/proxkey/security.jpg" alt="Security Algorithims Supported" class="img-responsive"/></center>
+            	<center><img src="images/proxkey/security.jpg" alt="Security Algorithims Supported" class="img-responsive"/></center>
             	<h1>Security Algorithims Supported</h1>
                 <div class="line-feature"></div>
                 <p> TDES, AES, RSA1024/2048, ECDSA P-192/P-256, SHA-1, SHA-256, SHA-384, SHA-512 </p>
             </div>
             </div>		
-            <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="content one_quarter">
             <div class="specification-section-inner-col">
-            	<center><img src="../images/proxkey/connector.jpg" alt="Connector" class="img-responsive"/></center>
+            	<center><img src="images/proxkey/connector.jpg" alt="Connector" class="img-responsive"/></center>
             	<h1>USB Version</h1>
                 <div class="line-feature"></div>
                 <p>2.0</p>
             </div>
             </div>		
-            <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="specification-section-inner-col">
-            	<center><img src="../images/proxkey/memory-size.jpg" alt="Memory Size & Data Retention" class="img-responsive"/></center>
+            <div class="content one_quarter">
+            <div class="specification-section-inner-col"><br><br><br>
+            	<center><img src="images/proxkey/memory-size.jpg" alt="Memory Size & Data Retention" class="img-responsive"/></center>
             	<h1>Memory Size & Data Retention</h1>
                 <div class="line-feature"></div>
                 <p>82K upto 10 years</p>
             </div>
             </div>		
-            <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="content one_quarter">
             <div class="specification-section-inner-col">
-            	<center><img src="../images/proxkey/Security-Certifications.jpg" alt="Certification" class="img-responsive"/></center>
+            	<center><img src="images/proxkey/Security-Certifications.jpg" alt="Certification" class="img-responsive"/></center>
             	<h1>Certification</h1>
                 <div class="line-feature"></div>
                 <p>CE/FCC/FIPS 140-2 LEVEL 3/Entrust Ready</p>
             </div>
             </div>		
-            <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="content one_quarter">
             <div class="specification-section-inner-col">
-            	<center><img src="../images/proxkey/Storage-temperature.jpg" alt="Storage temperature and Humidity rating" class="img-responsive"/></center>
+            	<center><img src="images/proxkey/Storage-temperature.jpg" alt="Storage temperature and Humidity rating" class="img-responsive"/></center>
             	<h1>Storage temperature & Humidity rating</h1>
                 <div class="line-feature"></div>
                 <p> -40° C to 85° C (-40° F to 185° F) & 0-100% without condensation </p>
             </div>
             </div>		
-            <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="content one_quarter">
             <div class="specification-section-inner-col">
-            	<center><img src="../images/proxkey/Memory-cell-rewrites.jpg" alt="Memory Cell Rewrite Life" class="img-responsive"/></center>
+            	<center><img src="images/proxkey/Memory-cell-rewrites.jpg" alt="Memory Cell Rewrite Life" class="img-responsive"/></center>
             	<h1>Memory Cell Rewrite Life</h1>
                 <div class="line-feature"></div>
                 <p>More than 1,00,000 time</p>
             </div>
             </div>		
-            <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="content one_quarter">
             <div class="specification-section-inner-col">
-            	<center><img src="../images/proxkey/Weight-and-Size.jpg" alt="Weight and Size" class="img-responsive"/></center>
+            	<center><img src="images/proxkey/Weight-and-Size.jpg" alt="Weight and Size" class="img-responsive"/></center>
             	<h1>Weight & Size</h1>
                 <div class="line-feature"></div>
                 <p>7 gms,  52.1mm X 16.8mm X 7.9mm.</p>
             </div>
             </div>		
-            <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="content one_quarter">
             <div class="specification-section-inner-col">
-            	<center><img src="../images/proxkey/Operating-Temperature.jpg" alt="Operating Max and Min temperature" class="img-responsive"/></center>
+            	<center><img src="images/proxkey/Operating-Temperature.jpg" alt="Operating Max and Min temperature" class="img-responsive"/></center>
             	<h1>Operating Max & Min temperature </h1>
                 <div class="line-feature"></div>
                 <p> '-20℃ ～ 55℃   </p>
@@ -284,7 +284,7 @@
         </div>
 
           <br><br>
-          <a href="#" style="padding: 15px 50px; color: white; background-color: #E9365A">Enquiry</a>
+          <a data-toggle="modal" data-target="#myModal"  style="padding: 15px 50px; cursor: pointer; color: white; background-color: #E9365A">Enquiry</a>
         <br><br><br><br>
 
 
@@ -314,7 +314,14 @@
       </div>
       <!-- ################################################################################################ -->
     </div>
-    <!-- Modal -->
+   
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+<!-- ################################################################################################ -->
+<!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
     
@@ -359,16 +366,10 @@
       
     </div>
   </div>
-  
-    <!-- ################################################################################################ -->
-    <!-- / main body -->
-    <div class="clear"></div>
-  </main>
-</div>
+  <!-- Model Ends here -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row4" style="background-image:url('../images/demo/backgrounds/foot.jpg');">
+<div class="wrapper row4" style="background-image:url('images/demo/backgrounds/foot.jpg');">
   <footer id="footer" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div class="one_third first">

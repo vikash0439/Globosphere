@@ -6,10 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="keywords" content="etoken, safnet etoken, gemalto etoken, safnet, gemalto, etoken pro, etoken 5110, etoken 5200, etoken 5700, aladin etoken, etoken pro 72k, etoken pro 32k, safnet etoken 5110, safnet etoken 5100, usb etoken, usb token, etoken driver, safnet etoken driver">
     <meta name="description" content="Globosphere Technologies India Pvt Ltd">
-<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-<link rel="icon" type="image/x-icon" href="../images/globosphere.png"> 
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="icon" type="image/x-icon" href="images/globosphere.png"> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-</head>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script></head>
 <body id="top">
 <div class="wrapper row0">
   <div id="topbar" class="hoc clear"> 
@@ -40,7 +41,7 @@
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_left">
-      <h1><a href="../index.html"><img src="../images/logo.jpg"></a></h1>
+      <h1><a href="index.html"><img src="images/logo.jpg"></a></h1>
     </div>
     <div id="quickinfo" class="fl_right">
       <!--moving text-->
@@ -83,7 +84,7 @@
   <nav id="mainav" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul class="clear">
-      <li><a href="../index.html">Home</a></li>
+      <li><a href="index.html">Home</a></li>
         <li><a href="solutions.html">Our Solutions</a></li>
       <li  class="active"><a class="drop" href="#">Our Products</a>
         <ul>
@@ -124,11 +125,11 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('../images/demo/backgrounds/head.jpeg');">
+<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/head.jpeg');">
   <div id="breadcrumb" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul>
-      <li><a href="../index.html">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="#">Our Products</a></li>
         <li><a href="#">E-pass 2003(Auto)</a></li>
     </ul>
@@ -147,7 +148,7 @@
           <!-- ################################################################################################ -->
           <h2 style="color: #E9365A">Epass 2003(Auto) </h2>
 
-          <img class="imgl borderedbox inspace-5" style="height: 350px; margin-right: 5%;" src="../images/epass/epass-2003.jpg" alt="">
+          <img class="imgl borderedbox inspace-5" style="height: 350px; margin-right: 5%;" src="images/epass/epass-2003.jpg" alt="">
           <p>The Epass 2003 is a classic USB-interfaced PKI token. It’s been designed for maximum security, including passing certification for FIPS 140-2 Level 3 and EAL5+, and can be easily custom-branded.</p>
             <ul>
                 <li>	Up to 8GB flash drive storage space</li>
@@ -161,7 +162,7 @@
                 <li>	Datasheet</li>
             </ul>
           <br><br>
-          <a href="#" style="padding: 15px 50px; color: white; background-color: #E9365A">Enquiry</a>
+          <a data-toggle="modal" data-target="#myModal"  style="padding: 15px 50px; cursor: pointer; color: white; background-color: #E9365A">Enquiry</a>
         <br><br><br><br>
 
         
@@ -172,7 +173,7 @@
           <!-- ################################################################################################ -->
           <h2 style="color: #E9365A">FEATURES </h2>
 
-          <img class="imgl borderedbox inspace-5" style="height: 350px" src="../images/demo/class 2 encrpt.png" alt="">
+         
             <ul>
                 <li> Contains a CC EAL5+ smart card chip and FIPS 140-2 L3 certified Chip Operating System (COS)</li>
                 <li>  Multi-level PIN verification offers even stronger security</li>
@@ -183,7 +184,7 @@
                 
             </ul>
           <br><br>
-          <a href="#" style="padding: 15px 50px; color: white; background-color: #E9365A">Enquiry</a>
+          <a data-toggle="modal" data-target="#myModal"  style="padding: 15px 50px; cursor: pointer; color: white; background-color: #E9365A">Enquiry</a>
         <br><br><br><br>
 
         
@@ -219,9 +220,55 @@
   </main>
 </div>
 <!-- ################################################################################################ -->
+ <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="background-color: #002266;">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style="text-align: center; font-weight: bold; color: #E9365A;">Enquiry Form</h4>
+        </div>
+        <div class="modal-body">
+          <div class="form-area">  
+        <form role="form" action="enquiry" method="post">
+        <br style="clear:both">
+                     <div class="form-group">
+                       <span style="color: white;font-weight: bolder;" >Select Product: </span>
+                       <select style="display: inline; display: inline;padding: 8px;color: black;font-weight: bolder;">
+                          <option value="select">-- SELECT --</option>
+						  <option value="dsc">Digital Signarure Certificates</option>
+						  <option value="safenet">SafeNet Token</option>
+						  <option value="epass">E-Pass Token</option>
+						  <option value="proxkey">WatchData Proxkey</option>
+						</select>
+                    </div>
+    				<div class="form-group">
+						<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="emailid" name="emailid" placeholder="Emaill ID" required>
+					</div>
+                    <div class="form-group">
+                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" rows="7"></textarea>                    
+                    </div>
+            
+        <button  style=" cursor: pointer; color: white; background-color: #E9365A" type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+        </form>
+    </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- Model Ends here -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row4" style="background-image:url('../images/demo/backgrounds/foot.jpg');">
+<div class="wrapper row4" style="background-image:url('images/demo/backgrounds/foot.jpg');">
   <footer id="footer" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div class="one_third first">

@@ -6,10 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="keywords" content="etoken, safnet etoken, gemalto etoken, safnet, gemalto, etoken pro, etoken 5110, etoken 5200, etoken 5700, aladin etoken, etoken pro 72k, etoken pro 32k, safnet etoken 5110, safnet etoken 5100, usb etoken, usb token, etoken driver, safnet etoken driver">
 <meta name="description" content="Globosphere Technologies India Pvt Ltd">
-<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-<link rel="icon" type="image/x-icon" href="../images/globosphere.png"> 
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="icon" type="image/x-icon" href="images/globosphere.png"> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-</head>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script></head>
 <body id="top">
 <div class="wrapper row0">
   <div id="topbar" class="hoc clear"> 
@@ -40,7 +41,7 @@
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_left">
-      <h1><a href="../index.html"><img src="../images/logo.jpg"></a></h1>
+      <h1><a href="../index.html"><img src="images/logo.jpg"></a></h1>
     </div>
     <div id="quickinfo" class="fl_right">
       <!--moving text-->
@@ -123,7 +124,7 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('../images/demo/backgrounds/head.jpeg');">
+<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/head.jpeg');">
   <div id="breadcrumb" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul>
@@ -146,11 +147,11 @@
           <!-- ################################################################################################ -->
           <h2 style="color: #E9365A">Class 2 Sign </h2>
 
-          <img class="imgl borderedbox inspace-5" style="height: 350px" src="../images/dsc/photo_2018-02-16_12-02-52.jpg"alt="">
+          <img class="imgl borderedbox inspace-5" style="height: 350px" src="images/dsc/CLASS2.png" alt="">
           <p>A Class 2 digital Signature Certificate now helps you to file your Income Tax Returns and Filing of E Forms with the Ministry of Corporate Affairs. Class 2A Digital Signature Certificates are Issued only to Individuals. File your Income Tax Return Hassle Free. No need to send Hand Signed Return acknowledgement copies to CPC Bangalore. Further E Filing of Income Tax Returns is mandatory for all assessee under the Income Tax Act who are liable to audit u/s 44AB (Turnover/Sales/ Gross receipts of Business Exceeding 1 Crore and 25 Lakhs in case of Professionals.</p>
           <p>Ministry of Corporate Affairs (MCA) 21 – E Governance Project required all documents to be filed by the corporates electronically by authenticating with a Digital Signature Certificate of Class 2 or above Category</p>
           <br><br>
-          <a href="#" style="padding: 15px 50px; color: white; background-color: #E9365A">Enquiry</a>
+          <a data-toggle="modal" data-target="#myModal"  style="padding: 15px 50px; cursor: pointer; color: white; background-color: #E9365A">Enquiry</a>
         <br><br><br><br>
 
          <h3>Where it is used:</h3>
@@ -169,11 +170,11 @@
           <!-- ################################################################################################ -->
           <h2 style="color: #E9365A">Class 2 Sign & Encrypt </h2>
 
-          <img class="imgl borderedbox inspace-5" style="height: 350px" src="../images/dsc/class 2 encrpt.png" alt="">
+          <img class="imgl borderedbox inspace-5" style="height: 350px" src="images/dsc/class 2 encrpt.png" alt="">
           <p>A Class 2 digital Signature Certificate now helps you to file your Income Tax Returns and Filing of E Forms with the Ministry of Corporate Affairs. Class 2A Digital Signature Certificates are Issued only to Individuals. File your Income Tax Return Hassle Free. No need to send Hand Signed Return acknowledgement copies to CPC Bangalore. Further E Filing of Income Tax Returns is mandatory for all assessee under the Income Tax Act who are liable to audit u/s 44AB (Turnover/Sales/ Gross receipts of Business Exceeding 1 Crore and 25 Lakhs in case of Professionals.</p>
           <p>Ministry of Corporate Affairs (MCA) 21 – E Governance Project required all documents to be filed by the corporates electronically by authenticating with a Digital Signature Certificate of Class 2 or above Category</p>
           <br><br>
-          <a href="#" style="padding: 15px 50px; color: white; background-color: #E9365A">Enquiry</a>
+          <a data-toggle="modal" data-target="#myModal"  style="padding: 15px 50px; cursor: pointer; color: white; background-color: #E9365A">Enquiry</a>
         <br><br><br><br>
 
          <h3>Where it is used:</h3>
@@ -192,11 +193,11 @@
           <!-- ################################################################################################ -->
           <h2 style="color: #E9365A">Class 3 Sign</h2>
 
-          <img class="imgl borderedbox inspace-5" style="height: 350px" src="../images/dsc/class%203.png" alt="">
+          <img class="imgl borderedbox inspace-5" style="height: 350px" src="images/dsc/class 3.png" alt="">
           <p>Class 3 Digital Signature Certificate ensures convenient and enhanced Security in Filing E Tenders. A digital Signature Certificates authenticates the identity of the person filing the Tender Information. A Class 3 Digital signature Certificate provides highest Level of assurance in the RCAI (Root Certifying Authority of India) hierarchy setup under the Controller of Certifying Authority.</p>
           <p>Class 3 individual Certificates are issued only to individuals based on rigorous identity validation process. Further File your Patents, Trademarks & IPR documents securely on www.ipindia.nic.in</p>
           <br><br><br>
-          <a href="#" style="padding: 15px 50px; color: white; background-color: #E9365A">Enquiry</a>
+          <a data-toggle="modal" data-target="#myModal"  style="padding: 15px 50px; cursor: pointer; color: white; background-color: #E9365A">Enquiry</a>
         <br><br><br><br>
 
          <h3>Where it is used:</h3>
@@ -216,11 +217,11 @@
           <!-- ################################################################################################ -->
           <h2 style="color: #E9365A">Class 3 Sign & Encrypt</h2>
 
-          <img class="imgl borderedbox inspace-5" style="height: 350px" src="../images/dsc/class%203%20encrypt.png" alt="">
+          <img class="imgl borderedbox inspace-5" style="height: 350px" src="images/dsc/class%203%20encrypt.png" alt="">
           <p>Class 3 Digital Signature Certificate ensures convenient and enhanced Security in Filing E Tenders. A digital Signature Certificates authenticates the identity of the person filing the Tender Information. A Class 3 Digital signature Certificate provides highest Level of assurance in the RCAI (Root Certifying Authority of India) hierarchy setup under the Controller of Certifying Authority..</p>
           <p>Class 3 individual Certificates are issued only to individuals based on rigorous identity validation process. Further File your Patents, Trademarks & IPR documents securely on www.ipindia.nic.in</p>
           <br><br><br>
-          <a href="#" style="padding: 15px 50px; color: white; background-color: #E9365A">Enquiry</a>
+          <a data-toggle="modal" data-target="#myModal"  style="padding: 15px 50px; cursor: pointer; color: white; background-color: #E9365A">Enquiry</a>
         <br><br><br><br>
 
          <h3>Where it is used:</h3>
@@ -239,11 +240,11 @@
           <!-- ################################################################################################ -->
           <h2 style="color: #E9365A">DGFT (IET)</h2>
 
-          <img class="imgl borderedbox inspace-5" style="height: 350px" src="../images/dsc/photo_2018-02-16_12-02-52.jpg" alt="">
+          <img class="imgl borderedbox inspace-5" style="height: 350px" src="images/dsc/dgft.png" alt="">
             <p>SafeEXIM, a solution developed exclusively for the Exporter-Importer community in India to enable them to interact and transact with the DGFT online with security and confidence on the DGFT Portal (www.dgft.gov.in). SafeEXIM uses advanced cryptographic technologies including Digital Certificates and Public Key Infrastructure (PKI) to bring one of the first-of-its-kind solutions to the Indian Market.</p>
             <p>SafeEXIM can be used only by an Exporter or Importer registered with the DGFT. It is not open to any third party. Any person from the EXIM organization who is authorized to transact with DGFT on behalf of the organization or sign any documents that need to be submitted to the DGFT can use SafeEXIM.</p>
           <br><br>
-          <a href="#" style="padding: 15px 50px; color: white; background-color: #E9365A">Enquiry</a>
+          <a data-toggle="modal" data-target="#myModal"  style="padding: 15px 50px; cursor: pointer; color: white; background-color: #E9365A">Enquiry</a>
         <br><br><br><br>
 
          <h3>Where it is used:</h3>
@@ -283,9 +284,55 @@
   </main>
 </div>
 <!-- ################################################################################################ -->
+ <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="background-color: #002266;">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style="text-align: center; font-weight: bold; color: #E9365A;">Enquiry Form</h4>
+        </div>
+        <div class="modal-body">
+          <div class="form-area">  
+        <form role="form" action="enquiry" method="post">
+        <br style="clear:both">
+                     <div class="form-group">
+                       <span style="color: white;font-weight: bolder;" >Select Product: </span>
+                       <select style="display: inline; display: inline;padding: 8px;color: black;font-weight: bolder;">
+                          <option value="select">-- SELECT --</option>
+						  <option value="dsc">Digital Signarure Certificates</option>
+						  <option value="safenet">SafeNet Token</option>
+						  <option value="epass">E-Pass Token</option>
+						  <option value="proxkey">WatchData Proxkey</option>
+						</select>
+                    </div>
+    				<div class="form-group">
+						<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="emailid" name="emailid" placeholder="Emaill ID" required>
+					</div>
+                    <div class="form-group">
+                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" rows="7"></textarea>                    
+                    </div>
+            
+        <button  style=" cursor: pointer; color: white; background-color: #E9365A" type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+        </form>
+    </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- Model Ends here -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row4" style="background-image:url('../images/demo/backgrounds/foot.jpg');">
+<div class="wrapper row4" style="background-image:url('images/demo/backgrounds/foot.jpg');">
   <footer id="footer" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div class="one_third first">
@@ -332,7 +379,7 @@
   <div id="copyright" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <p class="fl_left">Copyright &copy; 2018 - Globosphere Technologies India Pvt Ltd<a href="#"></a></p>
-    <p class="fl_right"><a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates"></a>All Rights Reserved&nbsp;&reg;</p>
+    <p class="fl_right">All Rights Reserved&nbsp;&reg;</p>
     <!-- ################################################################################################ -->
   </div>
 </div>

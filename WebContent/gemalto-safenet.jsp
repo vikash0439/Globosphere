@@ -6,8 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="keywords" content="etoken, safnet etoken, gemalto etoken, safnet, gemalto, etoken pro, etoken 5110, etoken 5200, etoken 5700, aladin etoken, etoken pro 72k, etoken pro 32k, safnet etoken 5110, safnet etoken 5100, usb etoken, usb token, etoken driver, safnet etoken driver">
     <meta name="description" content="Globosphere Technologies India Pvt Ltd">
-<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-<link rel="icon" type="image/x-icon" href="../images/globosphere.png"> 
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="icon" type="image/x-icon" href="images/globosphere.png"> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body id="top">
@@ -40,7 +40,7 @@
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_left">
-      <h1><a href="../index.html"><img src="../images/logo.jpg"></a></h1>
+      <h1><a href="home"><img src="images/logo.jpg"></a></h1>
     </div>
     <div id="quickinfo" class="fl_right">
       <!--moving text-->
@@ -83,7 +83,7 @@
   <nav id="mainav" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul class="clear">
-      <li><a href="../index.html">Home</a></li>
+      <li><a href="index.html">Home</a></li>
         <li><a href="solutions.html">Our Solutions</a></li>
       <li  class="active"><a class="drop" href="#">Our Products</a>
         <ul>
@@ -124,7 +124,7 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('../images/demo/backgrounds/head.jpeg');">
+<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/head.jpeg');">
   <div id="breadcrumb" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul>
@@ -149,10 +149,10 @@
     <div class="content"> 
       <!-- ################################################################################################ -->
       <h1>SafeNet eToken 5110 Token-Based Authentication</h1>
-      <img class="imgr borderedbox inspace-5" src="../images/usbtoken/safenet4.jpg" alt="">
+      <img class="imgr borderedbox inspace-5" src="images/usbtoken/safenet4.jpg" alt="">
       <p>Ultra strong authentication, security in a convenient, portable form factor</p>
       <p>To protect identities and critical business applications in today’s digital business environment, organizations need to ensure access to online and network resources is always secure, while maintaining compliance with security and privacy regulations.</p>
-      <img class="imgl borderedbox inspace-5" src="../images/usbtoken/welcome-img.png" alt="">
+      <img class="imgl borderedbox inspace-5" src="images/usbtoken/welcome-img.png" alt="">
       <p>SafeNet eToken 5110 offers two-factor authentication for secure remote and network access, as well as certificate-based support for advanced security applications, including digital signature and pre-boot authentication</a>.</p>
      <br><br><br><br>
       <h1>Two-Factor Authentication you can Trust</h1>
@@ -172,7 +172,7 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row4" style="background-image:url('../images/demo/backgrounds/foot.jpg');">
+<div class="wrapper row4" style="background-image:url('images/demo/backgrounds/foot.jpg');">
   <footer id="footer" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div class="one_third first">

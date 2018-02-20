@@ -11,7 +11,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <title>Cirpark | Pages | Gallery</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
@@ -47,7 +47,7 @@ Licence URI: http://www.os-templates.com/template-terms
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_left">
-      <h1><a href="../index.html">Cirpark</a></h1>
+      <h1><a href="index.html">Cirpark</a></h1>
     </div>
     <div id="quickinfo" class="fl_right">
       <ul class="nospace inline">
@@ -67,7 +67,7 @@ Licence URI: http://www.os-templates.com/template-terms
   <nav id="mainav" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul class="clear">
-      <li><a href="../index.html">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li class="active"><a class="drop" href="#">Pages</a>
         <ul>
           <li class="active"><a href="gallery.html">Gallery</a></li>
@@ -101,7 +101,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('../images/demo/backgrounds/01.png');">
+<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');">
   <div id="breadcrumb" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul>
@@ -126,18 +126,18 @@ Licence URI: http://www.os-templates.com/template-terms
         <figure>
           <header class="heading">Gallery Title Goes Here</header>
           <ul class="nospace clear">
-            <li class="one_quarter first"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter first"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter first"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter first"><a href="#"><img src="images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter first"><a href="#"><img src="images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter first"><a href="#"><img src="images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="images/demo/gallery/01.png" alt=""></a></li>
           </ul>
           <figcaption>Gallery Description Goes Here</figcaption>
         </figure>
@@ -228,8 +228,8 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
 <!-- JAVASCRIPTS -->
-<script src="../layout/scripts/jquery.min.js"></script>
-<script src="../layout/scripts/jquery.backtotop.js"></script>
-<script src="../layout/scripts/jquery.mobilemenu.js"></script>
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
 </body>
 </html>
