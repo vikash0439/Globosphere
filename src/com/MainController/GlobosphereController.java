@@ -1,14 +1,30 @@
 package com.MainController;
 
+import java.util.Map;
+
+import javax.validation.Valid;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-@Controller 
+import com.Form.SubscribeForm;
+import com.services.GlobosphereService;
+
+@Controller
 public class GlobosphereController {
 	
+	
+	 @Autowired
+	 GlobosphereService service;
+	 
+	// Html pages mapping 
+	
 	@RequestMapping(value="/home")
-	public ModelAndView Home(){
+	public ModelAndView Home(Map model, SubscribeForm subscribeform){
+		model.put("subscribeform", subscribeform);
 		String message = "HELLO About";  
 		return new ModelAndView("index", "message", message);
 	}
@@ -90,5 +106,13 @@ public class GlobosphereController {
 		String message = "HELLO About";  
 		return new ModelAndView("team", "message", message);
 	}
-
+	
+	// Form mapping
+	
+	@RequestMapping("/subscribe")
+	public ModelAndView subscription(Map model, @Valid SubscribeForm subscribeform, BindingResult result){
+		String message = "HELLO About"; 
+		service.addSubscribe(subscribeform);
+		return new ModelAndView("team", "message", message);
+	}
 }

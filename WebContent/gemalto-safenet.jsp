@@ -9,6 +9,10 @@
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 <link rel="icon" type="image/x-icon" href="images/globosphere.png"> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script></head>
+
 </head>
 <body id="top">
 <div class="wrapper row0">
@@ -83,40 +87,40 @@
   <nav id="mainav" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul class="clear">
-      <li><a href="index.html">Home</a></li>
-        <li><a href="solutions.html">Our Solutions</a></li>
+      <li><a href="home">Home</a></li>
+        <li><a href="solutions">Our Solutions</a></li>
       <li  class="active"><a class="drop" href="#">Our Products</a>
         <ul>
-          <li><a href="dsc.html">Digital Signtaure Certificates</a></li>
+          <li><a href="dsc">Digital Signtaure Certificates</a></li>
           <li><a class="drop" href="#">USB Tokens</a>
             <ul>
-              <li><a href="gemalto-safenet.html">Gemalto/SafeNet</a></li>
-              <li><a href="epass-2003.html">ePass 2003(Auto)</a></li>
-              <li><a href="proxkey.html">WD Proxkey</a></li>
+              <li><a href="gemalto-safenet">Gemalto/SafeNet</a></li>
+              <li><a href="epass-2003">ePass 2003(Auto)</a></li>
+              <li><a href="proxkey">WD Proxkey</a></li>
              
             </ul>
           </li>
-          <li><a href="biometrics.html">Biometric Devices</a></li>
+          <li><a href="biometrics">Biometric Devices</a></li>
         </ul>
       </li>
       <li><a class="drop" href="#">Our Company</a>
         <ul>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="team.html">Recognition</a></li>
+          <li><a href="about">About Us</a></li>
+          <li><a href="team">Team</a></li>
+          <li><a href="team">Recognition</a></li>
           
         </ul>
       </li>
       <li><a class="drop" href="#">Insights</a>
         <ul>
           <li><a href="http://www.globosphere.in/blogs" target="_blank">Blogs</a></li>
-          <li><a href="team.html">Articles</a></li>
-          <li><a href="team.html">Partners</a></li>
+          <li><a href="team">Articles</a></li>
+          <li><a href="team">Partners</a></li>
           
         </ul>
       </li>
-      <li><a href="support.html">Support</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="support">Support</a></li>
+      <li><a href="contact">Contact Us</a></li>
     </ul>
     <!-- ################################################################################################ -->
   </nav>
@@ -128,7 +132,7 @@
   <div id="breadcrumb" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul>
-      <li><a href="index.html">Home</a></li>
+      <li><a href="home">Home</a></li>
       <li><a href="#">Products</a></li>
       <li><a href="#">Gemalto/Safnet</a></li>
     </ul>
@@ -148,20 +152,20 @@
     <!-- ################################################################################################ -->
     <div class="content"> 
       <!-- ################################################################################################ -->
-      <h1>SafeNet eToken 5110 Token-Based Authentication</h1>
-      <img class="imgr borderedbox inspace-5" src="images/usbtoken/safenet4.jpg" alt="">
+      <h2 style="color: #E9365A">SafeNet eToken 5110 Token-Based Authentication</h2>
+          <img class="imgl borderedbox inspace-5" style="height: 350px; margin-right: 5%;" src="images/usbtoken/safnet.jpg"alt="">
       <p>Ultra strong authentication, security in a convenient, portable form factor</p>
       <p>To protect identities and critical business applications in today’s digital business environment, organizations need to ensure access to online and network resources is always secure, while maintaining compliance with security and privacy regulations.</p>
-      <img class="imgl borderedbox inspace-5" src="images/usbtoken/welcome-img.png" alt="">
+     
       <p>SafeNet eToken 5110 offers two-factor authentication for secure remote and network access, as well as certificate-based support for advanced security applications, including digital signature and pre-boot authentication</a>.</p>
-     <br><br><br><br>
+     
       <h1>Two-Factor Authentication you can Trust</h1>
     
     <p1>SafeNet eToken 5110 is a portable two-factor USB authenticator with advanced smart card technology. Certificate-based technology generates and stores credentials-such as private keys, passwords, and digital certificates inside the protected environment of the smart card chip. To authenticate, users must supply both their personal SafeNet eToken authenticator and password, providing a critical second level of security beyond simple passwords to protect valuable digital business resources.</p1><br><br>
     <h1>Future-Proofed and Scalable with Centralized Management Control</h1>
     <p>SafeNet eToken 5110 is based on the advanced Gemalto IDCore platform, and integrates seamlessly with third party applications through SafeNet Authentication development tools, supports SafeNet PKI and password management applications and software development tools, and allows customization of applications and extension of functionality through on-board Java applets. SafeNet eToken 5110 is supported by SafeNet Authentication Manager (excluding SafeNet eToken 5110 CC), which reduces IT overhead by streamlining all authentication operations, including deployment, provisioning, enrollment, and ongoing maintenance, as well as offering support for lost tokens. SafeNet eToken 5110 is also supported by SafeNet Authentication Client for full local admin and support for advanced token management, events and deployment.</p>
       <br>
-      <a href="#" style="padding: 15px 50px; color: white; background-color: #E9365A">Enquiry</a>
+          <a data-toggle="modal" data-target="#myModal"  style="padding: 15px 50px; cursor: pointer; color: white; background-color: #E9365A">Enquiry</a>
       <!-- ################################################################################################ -->
     </div>
     <!-- ################################################################################################ -->
@@ -170,6 +174,52 @@
   </main>
 </div>
 <!-- ################################################################################################ -->
+<!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="background-color: #002266;">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style="text-align: center; font-weight: bold; color: #E9365A;">Enquiry Form</h4>
+        </div>
+        <div class="modal-body">
+          <div class="form-area">  
+        <form role="form" action="enquiry" method="post">
+        <br style="clear:both">
+                     <div class="form-group">
+                       <span style="color: white;font-weight: bolder;" >Select Product: </span>
+                       <select style="display: inline; display: inline;padding: 8px;color: black;font-weight: bolder;">
+                          <option value="select">-- SELECT --</option>
+						  <option value="dsc">Digital Signarure Certificates</option>
+						  <option value="safenet">SafeNet Token</option>
+						  <option value="epass">E-Pass Token</option>
+						  <option value="proxkey">WatchData Proxkey</option>
+						</select>
+                    </div>
+    				<div class="form-group">
+						<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="emailid" name="emailid" placeholder="Emaill ID" required>
+					</div>
+                    <div class="form-group">
+                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" rows="7"></textarea>                    
+                    </div>
+            
+        <button  style=" cursor: pointer; color: white; background-color: #E9365A" type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+        </form>
+    </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- Model Ends here -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row4" style="background-image:url('images/demo/backgrounds/foot.jpg');">

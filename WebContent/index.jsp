@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -42,7 +42,7 @@ pageEncoding="ISO-8859-1"%>
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_left">
-      <h1><a href="index.html"><img src="images/logo.jpg"></a></h1>
+      <h1><a href="home"><img src="images/logo.jpg"></a></h1>
     </div>
     <div id="quickinfo" class="fl_right">
       <!--moving text-->
@@ -85,7 +85,7 @@ pageEncoding="ISO-8859-1"%>
   <nav id="mainav" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul class="clear">
-      <li class="active"><a href="index">Home</a></li>
+      <li class="active"><a href="home">Home</a></li>
         <li><a href="solutions">Our Solutions</a></li>
       <li><a class="drop" href="#">Our Products</a>
         <ul>
@@ -105,20 +105,20 @@ pageEncoding="ISO-8859-1"%>
         <ul>
           <li><a href="about">About Us</a></li>
           <li><a href="team">Team</a></li>
-          <li><a href="pages/team.html">Recognition</a></li>
+          <li><a href="team">Recognition</a></li>
           
         </ul>
       </li>
       <li><a class="drop" href="#">Insights</a>
         <ul>
           <li><a href="http://www.globosphere.in/blogs" target="_blank">Blogs</a></li>
-          <li><a href="pages/team.html">Articles</a></li>
-          <li><a href="pages/team.html">Partners</a></li>
+          <li><a href="team">Articles</a></li>
+          <li><a href="team">Partners</a></li>
           
         </ul>
       </li>
-      <li><a href="pages/support.html">Support</a></li>
-      <li><a href="pages/contact.html">Contact Us</a></li>
+      <li><a href="support">Support</a></li>
+      <li><a href="contact">Contact Us</a></li>
     </ul>
     <!-- ################################################################################################ -->
   </nav>
@@ -333,7 +333,7 @@ pageEncoding="ISO-8859-1"%>
   <article class="hoc container clear center"> 
     <!-- ################################################################################################ -->
     <h6 class="heading">Want to know more, get in touch with us. Drop a message</h6>
-    <p class="nospace"><a class="btn" href="pages/contact.html">Contact Us</a></p>
+    <p class="nospace"><a class="btn" href="contact">Contact Us</a></p>
     <!-- ################################################################################################ -->
   </article>
 </div>
@@ -368,14 +368,18 @@ pageEncoding="ISO-8859-1"%>
     <div class="one_third">
       
       <p class="btmspace-30">Stay up to date with Globosphere Technologies news and information by subscribing to our services.</p>
-      <form method="post" action="#">
-        <fieldset>
-          <legend>Newsletter:</legend>
-          <input class="btmspace-15" type="text" value="" placeholder="Name">
-          <input class="btmspace-15" type="text" value="" placeholder="Email">
-          <button type="submit" value="submit">Submit</button>
-        </fieldset>
-      </form>
+        <form:form action="subscribe" method="POST" commandName="subscribeform">
+       <legend>Newsletter:</legend>
+              <form:hidden path="subscribeid" />
+           <form:input class="btmspace-15" placeholder="Your Name" path="name" />
+			<form:errors path="name" />
+			<form:input  class="btmspace-15" placeholder="Your Email ID" path="emailid" />
+			<form:errors path="emailid" />
+          
+          
+          <button type="submit" value="submit">Subscribe</button>
+       
+      </form:form>
     </div>
     <!-- ################################################################################################ -->
   </footer>
@@ -387,7 +391,7 @@ pageEncoding="ISO-8859-1"%>
   <div id="copyright" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <p class="fl_left">Copyright &copy; 2018 - Globosphere Technologies India Pvt Ltd<a href="#"></a></p>
-    <p class="fl_right"><a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates"></a>All Rights Reserved&nbsp;&reg;</p>
+    <p class="fl_right">All Rights Reserved&nbsp;&reg;</p>
     <!-- ################################################################################################ -->
   </div>
 </div>

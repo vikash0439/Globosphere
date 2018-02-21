@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Globosphere Technologies Pvt Ltd</title>
+<title>Proxkey | Globosphere Technologies Pvt Ltd</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="keywords" content="etoken, safnet etoken, gemalto etoken, safnet, gemalto, etoken pro, etoken 5110, etoken 5200, etoken 5700, aladin etoken, etoken pro 72k, etoken pro 32k, safnet etoken 5110, safnet etoken 5100, usb etoken, usb token, etoken driver, safnet etoken driver">
@@ -42,7 +42,7 @@
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_left">
-      <h1><a href="index.html"><img src="images/logo.jpg"></a></h1>
+      <h1><a href="home"><img src="images/logo.jpg"></a></h1>
     </div>
     <div id="quickinfo" class="fl_right">
       <!--moving text-->
@@ -85,40 +85,40 @@
   <nav id="mainav" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul class="clear">
-      <li><a href="index.html">Home</a></li>
-        <li><a href="solutions.html">Our Solutions</a></li>
+      <li><a href="home">Home</a></li>
+        <li><a href="solutions">Our Solutions</a></li>
       <li  class="active"><a class="drop" href="#">Our Products</a>
         <ul>
-          <li><a href="dsc.html">Digital Signtaure Certificates</a></li>
+          <li><a href="dsc">Digital Signtaure Certificates</a></li>
           <li><a class="drop" href="#">USB Tokens</a>
             <ul>
-              <li><a href="gemalto-safenet.html">Gemalto/SafeNet</a></li>
-              <li><a href="epass-2003.html">ePass 2003(Auto)</a></li>
-              <li><a href="proxkey.html">WD Proxkey</a></li>
+              <li><a href="gemalto-safenet">Gemalto/SafeNet</a></li>
+              <li><a href="epass-2003">ePass 2003(Auto)</a></li>
+              <li><a href="proxkey">WD Proxkey</a></li>
              
             </ul>
           </li>
-          <li><a href="biometrics.html">Biometric Devices</a></li>
+          <li><a href="biometrics">Biometric Devices</a></li>
         </ul>
       </li>
       <li><a class="drop" href="#">Our Company</a>
         <ul>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="team.html">Recognition</a></li>
+          <li><a href="about">About Us</a></li>
+          <li><a href="team">Team</a></li>
+          <li><a href="team">Recognition</a></li>
           
         </ul>
       </li>
       <li><a class="drop" href="#">Insights</a>
         <ul>
           <li><a href="http://www.globosphere.in/blogs" target="_blank">Blogs</a></li>
-          <li><a href="team.html">Articles</a></li>
-          <li><a href="team.html">Partners</a></li>
+          <li><a href="team">Articles</a></li>
+          <li><a href="team">Partners</a></li>
           
         </ul>
       </li>
-      <li><a href="support.html">Support</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="support">Support</a></li>
+      <li><a href="contact">Contact Us</a></li>
     </ul>
     <!-- ################################################################################################ -->
   </nav>
@@ -130,7 +130,7 @@
   <div id="breadcrumb" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul>
-      <li><a href="index.html">Home</a></li>
+      <li><a href="home">Home</a></li>
       <li><a href="#">Our Products</a></li>
         <li><a href="#">WD Proxkey</a></li>
     </ul>
@@ -183,8 +183,10 @@
           <h2 style="color: #E9365A">Technical Specifications </h2>
 
          
-          <div class="row">
-        	<div class="content one_quarter">
+         
+          <div  class="row">
+        	<div id="first">
+        	<div id="a">
             <div class="specification-section-inner-col">
             	<center><img src="images/proxkey/os.jpg" alt="Supported Operating Systems" class="img-responsive"/></center>
             	<h1>Supported OS</h1>
@@ -192,7 +194,7 @@
                 <p>Windows 7/8/10, Windows server 2012, MAC, Linux, Ubantu</p>
             </div>
             </div>	
-            <div class="content one_quarter">
+            <div id="b">
             <div class="specification-section-inner-col">
             	<center><img src="images/proxkey/supported-browsers.jpg" alt="Supported Browsers" class="img-responsive"/></center>
             	<h1>Supported Browsers </h1>
@@ -200,15 +202,16 @@
                 <p> IE6.0-IE11, Firefox, chrome, Safari </p>
             </div>
             </div>	
-            <div class="content one_quarter">
+            <div id="c">
             <div class="specification-section-inner-col">
             	<center><img src="images/proxkey/apn.jpg" alt="API Standards" class="img-responsive"/></center>
             	<h1>API Standards</h1>
                 <div class="line-feature"></div>
                 <p> PKCS#11 V2.10,  Microsoft CAPI 2.0, Microsoft CNG, X.509 V3, SSL v3 </p>
             </div>
-            </div>		
-            <div class="content one_quarter">
+            </div>	
+            </div>	
+           <div id="second"> <div id="a">
             <div class="specification-section-inner-col">
             	<center><img src="images/proxkey/iso.jpg" alt="ISO Specification" class="img-responsive"/></center>
             	<h1>ISO Specification</h1>
@@ -216,7 +219,7 @@
                 <p> ISO 7816-4 (Smart Card) </p>
             </div>
             </div>		
-            <div class="content one_quarter">
+            <div id="b">
             <div class="specification-section-inner-col">
             	<center><img src="images/proxkey/security.jpg" alt="Security Algorithims Supported" class="img-responsive"/></center>
             	<h1>Security Algorithims Supported</h1>
@@ -224,23 +227,23 @@
                 <p> TDES, AES, RSA1024/2048, ECDSA P-192/P-256, SHA-1, SHA-256, SHA-384, SHA-512 </p>
             </div>
             </div>		
-            <div class="content one_quarter">
+            <div id="c">
             <div class="specification-section-inner-col">
             	<center><img src="images/proxkey/connector.jpg" alt="Connector" class="img-responsive"/></center>
             	<h1>USB Version</h1>
                 <div class="line-feature"></div>
                 <p>2.0</p>
             </div>
-            </div>		
-            <div class="content one_quarter">
-            <div class="specification-section-inner-col"><br><br><br>
+            </div></div>		
+            <div id="third"><div id="a">
+            <div class="specification-section-inner-col">
             	<center><img src="images/proxkey/memory-size.jpg" alt="Memory Size & Data Retention" class="img-responsive"/></center>
             	<h1>Memory Size & Data Retention</h1>
                 <div class="line-feature"></div>
                 <p>82K upto 10 years</p>
             </div>
             </div>		
-            <div class="content one_quarter">
+            <div id="b">
             <div class="specification-section-inner-col">
             	<center><img src="images/proxkey/Security-Certifications.jpg" alt="Certification" class="img-responsive"/></center>
             	<h1>Certification</h1>
@@ -248,15 +251,15 @@
                 <p>CE/FCC/FIPS 140-2 LEVEL 3/Entrust Ready</p>
             </div>
             </div>		
-            <div class="content one_quarter">
+            <div id="c">
             <div class="specification-section-inner-col">
             	<center><img src="images/proxkey/Storage-temperature.jpg" alt="Storage temperature and Humidity rating" class="img-responsive"/></center>
             	<h1>Storage temperature & Humidity rating</h1>
                 <div class="line-feature"></div>
-                <p> -40Â° C to 85Â° C (-40Â° F to 185Â° F) & 0-100% without condensation </p>
+                <p> -40° C to 85° C (-40° F to 185° F) & 0-100% without condensation </p>
             </div>
-            </div>		
-            <div class="content one_quarter">
+            </div>	</div>	
+            <div id="fourth"><div id="a">
             <div class="specification-section-inner-col">
             	<center><img src="images/proxkey/Memory-cell-rewrites.jpg" alt="Memory Cell Rewrite Life" class="img-responsive"/></center>
             	<h1>Memory Cell Rewrite Life</h1>
@@ -264,7 +267,7 @@
                 <p>More than 1,00,000 time</p>
             </div>
             </div>		
-            <div class="content one_quarter">
+            <div id="b">
             <div class="specification-section-inner-col">
             	<center><img src="images/proxkey/Weight-and-Size.jpg" alt="Weight and Size" class="img-responsive"/></center>
             	<h1>Weight & Size</h1>
@@ -272,12 +275,12 @@
                 <p>7 gms,  52.1mm X 16.8mm X 7.9mm.</p>
             </div>
             </div>		
-            <div class="content one_quarter">
+            <div id="c">
             <div class="specification-section-inner-col">
             	<center><img src="images/proxkey/Operating-Temperature.jpg" alt="Operating Max and Min temperature" class="img-responsive"/></center>
             	<h1>Operating Max & Min temperature </h1>
                 <div class="line-feature"></div>
-                <p> '-20â„ƒ ï½ž 55â„ƒ   </p>
+                <p> '-20° C to 55„ƒ° C  </p>
             </div>
             </div>		
             <div class="clearfix"></div>

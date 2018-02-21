@@ -17,10 +17,8 @@
 	
 	<!-- Spring Web Mapping -->
      
-    <context:component-scan  base-package="com.MainController" /> 
+    <context:component-scan  base-package="com.MainController" />
     <context:annotation-config />
-    
-   
     
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">  
         <property name="prefix" value="/" />  
@@ -31,21 +29,20 @@
      <mvc:annotation-driven />
 
     <!-- Spring Hibernate Mapping -->
-	<bean id="dataSource"
-		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="url" value="jdbc:mysql://localhost:3306/globosphere" />
 		<property name="username" value="root" />
 		<property name="password" value="boss" />
 	</bean>
 
- 	<bean id="sessionFactory"
-		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+ 	<bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
 		<property name="annotatedClasses">
 			<list>
-				<value>net.roseindia.domain.Employee</value>
-				<value>net.roseindia.domain.Login</value>
+				<value>com.domain.Contact</value>
+				<value>com.domain.Order</value>
+				<value>com.domain.Subscribe</value>
 			</list>
 		</property>
 
@@ -57,9 +54,17 @@
 			</props>
 		</property>
 	</bean>
+    <!-- Spring Web Mapping End-->
     
+    <bean id="Dao" class="com.dao.daoImpl.GlobosphereDaoImpl">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<bean id="service" class="com.services.impl.GlobosphereServiceImpl">
+		<property name="Dao" ref="Dao" />
+	</bean>
     
-	<!-- Spring Web Mapping End-->
+	
 
 	 <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
 		<property name="basename" value="/WEB-INF/messages" />

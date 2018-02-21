@@ -461,6 +461,10 @@ table a, #comments a{background-color:inherit;}
                   display: flex;
                   justify-content: space-between;
                  }
+                 #first, #second, #third, #fourth{
+                  display: flex;
+                  justify-content: space-between;
+                 }
                  #specification{
                      display: flex;
                      justify-content: space-between;
@@ -473,9 +477,17 @@ table a, #comments a{background-color:inherit;}
                 margin: 50px;
                 text-align: center;
              }
+               #a, #b, #c{
+                flex: 1;
+                background-color: white;
+                margin: 50px;
+                text-align: center;
+             }
+             
              #spec1{
                  flex: 2;
             }
+            
             
             <!-- Pop up form -->
             .red{

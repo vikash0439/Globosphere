@@ -84,40 +84,40 @@
   <nav id="mainav" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul class="clear">
-      <li><a href="index.html">Home</a></li>
-        <li><a href="solutions.html">Our Solutions</a></li>
+      <li><a href="home">Home</a></li>
+        <li><a href="solutions">Our Solutions</a></li>
       <li><a class="drop" href="#">Our Products</a>
         <ul>
-          <li><a href="dsc.html">Digital Signtaure Certificates</a></li>
+          <li><a href="dsc">Digital Signtaure Certificates</a></li>
           <li><a class="drop" href="#">USB Tokens</a>
             <ul>
-              <li><a href="gemalto-safenet.html">Gemalto/SafeNet</a></li>
-              <li><a href="epass-2003.html">ePass 2003(Auto)</a></li>
-              <li><a href="proxkey.html">WD Proxkey</a></li>
+              <li><a href="gemalto-safenet">Gemalto/SafeNet</a></li>
+              <li><a href="epass-2003">ePass 2003(Auto)</a></li>
+              <li><a href="proxkey">WD Proxkey</a></li>
              
             </ul>
           </li>
-          <li><a href="biometrics.html">Biometric Devices</a></li>
+          <li><a href="biometrics">Biometric Devices</a></li>
         </ul>
       </li>
       <li class="active"><a class="drop" href="#">Our Company</a>
         <ul>
-          <li ><a href="about.html">About Us</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="team.html">Recognition</a></li>
+          <li ><a href="about">About Us</a></li>
+          <li><a href="team">Team</a></li>
+          <li><a href="team">Recognition</a></li>
           
         </ul>
       </li>
       <li><a class="drop" href="#">Insights</a>
         <ul>
           <li><a href="http://www.globosphere.in/blogs" target="_blank">Blogs</a></li>
-          <li><a href="team.html">Articles</a></li>
-          <li><a href="team.html">Partners</a></li>
+          <li><a href="team">Articles</a></li>
+          <li><a href="team">Partners</a></li>
           
         </ul>
       </li>
-      <li><a href="support.html">Support</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="support">Support</a></li>
+      <li><a href="contact">Contact Us</a></li>
     </ul>
     <!-- ################################################################################################ -->
   </nav>
