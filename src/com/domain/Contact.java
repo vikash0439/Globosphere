@@ -36,8 +36,8 @@ public class Contact {
 	public long getMobile() {
 		return mobile;
 	}
-	public void setMobile(long mobile) {
-		this.mobile = mobile;
+	public void setMobile(long l) {
+		this.mobile = l;
 	}
 	@Column(name="emailid")
 	public String getEmailid() {

@@ -2,7 +2,7 @@ package com.dao.daoImpl;
 
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import com.Form.ContactForm;
 import com.Form.OrderForm;
@@ -12,13 +12,19 @@ import com.domain.Contact;
 import com.domain.Order;
 import com.domain.Subscribe;
 
-public class GlobosphereDaoImpl implements GlobosphereDao {
+@Repository
+public class GlobosphereDaoImpl implements GlobosphereDao{
 	
+	@Autowired
 	private SessionFactory sessionFactory;
-
+	
+	public SessionFactory getSessionFactory() {
+		return sessionFactory;
+	}
 	public void setSessionFactory(SessionFactory sessionFactory) {
 		this.sessionFactory = sessionFactory;
 	}
+
 
 	@Override
 	public void addOrder(OrderForm orderform) {
@@ -40,6 +46,7 @@ public class GlobosphereDaoImpl implements GlobosphereDao {
 		subscribe.setSubscribeid(subscribeform.getSubscribeid());
 		subscribe.setName(subscribeform.getName());
 		subscribe.setEmailid(subscribeform.getEmailid());
+		System.out.println("Dao implementation");
 		sessionFactory.openSession().saveOrUpdate(subscribe);
 	}
 

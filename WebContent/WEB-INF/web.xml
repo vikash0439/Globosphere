@@ -13,12 +13,15 @@
       <servlet>
 		<servlet-name>dispatcher</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+	    <load-on-startup>1</load-on-startup>
 	  </servlet>
 	  <servlet-mapping>
 		<servlet-name>dispatcher</servlet-name>
 		<url-pattern>/</url-pattern>
 	 </servlet-mapping>
-	 	
+	<listener> 
+    <listener-class>org.springframework.web.servlet.DispatcherServlet</listener-class> 
+</listener>
         <error-page>
 		    <error-code>400</error-code>
 		    <location>/page-not-found</location>

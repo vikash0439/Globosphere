@@ -18,9 +18,8 @@
 	<!-- Spring Web Mapping -->
      
     <context:component-scan  base-package="com.MainController" />
-    <context:annotation-config />
     
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">  
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">  
         <property name="prefix" value="/" />  
         <property name="suffix" value=".jsp" />  
     </bean>  
@@ -51,20 +50,22 @@
 				<prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>
 				<prop key="hibernate.show_sql">true</prop>
 				<prop key="hibernate.hbm2ddl.auto">none</prop>
+				<prop key="hibernate.format_sql">true</prop>
+				<prop key="hibernate.id.new_generator_mappings">false</prop>
 			</props>
 		</property>
 	</bean>
     <!-- Spring Web Mapping End-->
     
-    <bean id="Dao" class="com.dao.daoImpl.GlobosphereDaoImpl">
+    
+<!-- Spring Message Resources Mapping End-->
+    <bean id="globosphereDao" class="com.dao.daoImpl.GlobosphereDaoImpl">
 		<property name="sessionFactory" ref="sessionFactory" />
 	</bean>
 
 	<bean id="service" class="com.services.impl.GlobosphereServiceImpl">
-		<property name="Dao" ref="Dao" />
+		<property name="globosphereDao" ref="globosphereDao" />
 	</bean>
-    
-	
 
 	 <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
 		<property name="basename" value="/WEB-INF/messages" />

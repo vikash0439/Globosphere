@@ -10,15 +10,18 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.Form.ContactForm;
 import com.Form.SubscribeForm;
 import com.services.GlobosphereService;
+import com.services.impl.GlobosphereServiceImpl;
+
 
 @Controller
 public class GlobosphereController {
 	
 	
 	 @Autowired
-	 GlobosphereService service;
+	 GlobosphereServiceImpl service;
 	 
 	// Html pages mapping 
 	
@@ -42,7 +45,9 @@ public class GlobosphereController {
 	}
 	
 	@RequestMapping("/contact")
-	public ModelAndView Contact(){
+	public ModelAndView Contact(Map model, ContactForm contactform, SubscribeForm subscribeform){
+		model.put("contactform", contactform);
+		model.put("subscribeform", subscribeform);
 		String message = "HELLO About";  
 		return new ModelAndView("contact", "message", message);
 	}
@@ -113,6 +118,15 @@ public class GlobosphereController {
 	public ModelAndView subscription(Map model, @Valid SubscribeForm subscribeform, BindingResult result){
 		String message = "HELLO About"; 
 		service.addSubscribe(subscribeform);
+		System.out.println("From the subscription");
 		return new ModelAndView("team", "message", message);
 	}
+	@RequestMapping("/contactus")
+	public ModelAndView contactus(Map model, @Valid ContactForm contactform, BindingResult result){
+		String message = "HELLO About"; 
+		service.addContact(contactform);
+		System.out.println("From the subscription");
+		return new ModelAndView("team", "message", message);
+	}
+
 }

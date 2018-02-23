@@ -149,17 +149,17 @@
           <h2 style="color: #E9365A">Epass 2003(Auto) </h2>
 
           <img class="imgl borderedbox inspace-5" style="height: 350px; margin-right: 5%;" src="images/epass/epass-2003.jpg" alt="">
-          <p>The Epass 2003 is a classic USB-interfaced PKI token. It’s been designed for maximum security, including passing certification for FIPS 140-2 Level 3 and EAL5+, and can be easily custom-branded.</p>
+          <p>The Epass 2003 is a classic USB-interfaced PKI token. Itâs been designed for maximum security, including passing certification for FIPS 140-2 Level 3 and EAL5+, and can be easily custom-branded.</p>
             <ul>
-                <li>	Up to 8GB flash drive storage space</li>
-                <li>	Storage space partitioning tool available
                 <li>	Onboard preloaded middleware installation pack</li>
-                <li>	AutoRun enabled for Windows operating systems</li>
+                <li>	AutoRun enabled for Windows operating systems </li>
+                <li>	FIPS 140-2 Level 3 certified</li>
                 <li>	Built-in high performance secure smart card chip (EAL 5+ certified)</li>
                 <li>	Onboard FIPS-validated RSA, AES, DES, 3DES, SHA-1, SHA-256</li>
                 <li>	Up to 9 X.509 certificates can be managed on each token</li>
                 <li>	Reliable middleware supports multiple operating systems</li>
-                <li>	Datasheet</li>
+                <li>	Tamper-resistant hardware available (optional)</li>
+                
             </ul>
           <br><br>
           <a data-toggle="modal" data-target="#myModal"  style="padding: 15px 50px; cursor: pointer; color: white; background-color: #E9365A">Enquiry</a>
@@ -191,8 +191,28 @@
 
           <!-- ################################################################################################ -->
         </div>
-       
-       
+        <div class="content three_quarter first tab-pane fade" id="specification"> 
+          <!-- ################################################################################################ -->
+          <h2 style="color: #E9365A">Specifications </h2>
+
+         
+            <ul>
+                <li> Contains a CC EAL5+ smart card chip and FIPS 140-2 L3 certified Chip Operating System (COS)</li>
+                <li>  Multi-level PIN verification offers even stronger security</li>
+                <li>  Provides a secure connection for employees to access company data and applications from any location with any device</li>
+                <li> Lightweight middleware lets you easily manage digital certificates and your PIN</li>
+                <li> Operations are performed on-board in an enclosed environment for maximum protection</li>
+                <li> Ensures compliance with a number of regulatory standards</li>
+                
+            </ul>
+          <br><br>
+          <a data-toggle="modal" data-target="#myModal"  style="padding: 15px 50px; cursor: pointer; color: white; background-color: #E9365A">Enquiry</a>
+        <br><br><br><br>
+
+        
+
+          <!-- ################################################################################################ -->
+        </div>      
     </div>
     <!-- ################################################################################################ -->
     <!-- ################################################################################################ -->
@@ -203,7 +223,7 @@
         <ul class="nav nav-tabs">
           <li class="active"><a data-toggle="tab" href="#epass">E-pass 2003 (Auto)</a></li>
            <li><a data-toggle="tab" href="#features">Features of E-Pass</a></li>
-    
+           <li><a data-toggle="tab" href="#specification">Specification of E-Pass</a></li> 
         </ul>
       </nav>
       <div class="sdb_holder">

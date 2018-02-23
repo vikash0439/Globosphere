@@ -2,8 +2,7 @@ package com.services.impl;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+
 
 import com.Form.ContactForm;
 import com.Form.OrderForm;
@@ -15,16 +14,17 @@ import com.services.GlobosphereService;
 
 public class GlobosphereServiceImpl implements GlobosphereService {
 	
-	GlobosphereDaoImpl Dao;
+	GlobosphereDaoImpl globosphereDao;
 
-	public void setGlobosphereDao(GlobosphereDaoImpl Dao) {
-		this.Dao = Dao;
+	public void setGlobosphereDao(GlobosphereDaoImpl globosphereDao) {
+		this.globosphereDao = globosphereDao;
 	}
 
 	@Override
 	public void addSubscribe(SubscribeForm subscribeform) {
 		// TODO Auto-generated method stub
-		Dao.addSubscribe(subscribeform);
+		System.out.println("Sevice Implementation");
+		globosphereDao.addSubscribe(subscribeform);
 	}
 
 
@@ -32,7 +32,7 @@ public class GlobosphereServiceImpl implements GlobosphereService {
 	@Override
 	public void addContact(ContactForm contactform) {
 		// TODO Auto-generated method stub
-		Dao.addContact(contactform);
+		globosphereDao.addContact(contactform);
 	}
 
 
@@ -40,7 +40,7 @@ public class GlobosphereServiceImpl implements GlobosphereService {
 	@Override
 	public void addOrder(OrderForm orderform) {
 		// TODO Auto-generated method stub
-		Dao.addOrder(orderform);
+		globosphereDao.addOrder(orderform);
 	}
 
 	
