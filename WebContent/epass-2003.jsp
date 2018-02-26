@@ -1,7 +1,9 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!DOCTYPE html>
 <html>
 <head>
-<title>Epass 2003(Auto)  | Globosphere Technologies Pvt Ltd</title>
+<title>ePass 2003(Auto)  | Globosphere Technologies Pvt Ltd</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="keywords" content="etoken, safnet etoken, gemalto etoken, safnet, gemalto, etoken pro, etoken 5110, etoken 5200, etoken 5700, aladin etoken, etoken pro 72k, etoken pro 32k, safnet etoken 5110, safnet etoken 5100, usb etoken, usb token, etoken driver, safnet etoken driver">
@@ -146,10 +148,10 @@
     <div class="tab-content">
         <div class="content three_quarter first tab-pane fade in active" id="epass"> 
           <!-- ################################################################################################ -->
-          <h2 style="color: #E9365A">Epass 2003(Auto) </h2>
+          <h2 style="color:#E9365A">ePass 2003(Auto) </h2>
 
           <img class="imgl borderedbox inspace-5" style="height: 350px; margin-right: 5%;" src="images/epass/epass-2003.jpg" alt="">
-          <p>The Epass 2003 is a classic USB-interfaced PKI token. Itâs been designed for maximum security, including passing certification for FIPS 140-2 Level 3 and EAL5+, and can be easily custom-branded.</p>
+          <p>The ePass 2003 is a classic USB-interfaced PKI token. It has been designed for maximum security, including passing certification for FIPS 140-2 Level 3 and EAL5+, and can be easily custom-branded.</p>
             <ul>
                 <li>	Onboard preloaded middleware installation pack</li>
                 <li>	AutoRun enabled for Windows operating systems </li>
@@ -191,29 +193,49 @@
 
           <!-- ################################################################################################ -->
         </div>
-        <div class="content three_quarter first tab-pane fade" id="specification"> 
+        <div class="content three_quarter first tab-pane fade" id="specifi"> 
           <!-- ################################################################################################ -->
-          <h2 style="color: #E9365A">Specifications </h2>
+          <h2 style="color: #E9365A">Specification of ePass (2003) Auto</h2>
 
-         
-            <ul>
-                <li> Contains a CC EAL5+ smart card chip and FIPS 140-2 L3 certified Chip Operating System (COS)</li>
-                <li>  Multi-level PIN verification offers even stronger security</li>
-                <li>  Provides a secure connection for employees to access company data and applications from any location with any device</li>
-                <li> Lightweight middleware lets you easily manage digital certificates and your PIN</li>
-                <li> Operations are performed on-board in an enclosed environment for maximum protection</li>
-                <li> Ensures compliance with a number of regulatory standards</li>
-                
-            </ul>
-          <br><br>
+          <table>
+          <tr><td><b>Supported Operating System</b></td><td>32bit and 64bit Windows XP SP3,<br> Server2003 , Vista, Server2008, 7, 8, 8.1<br> 32bit and 64bit Linux <br>MAC OS X</td></tr>
+          <tr><td><b>Middleware</b></td><td>Windows middleware for Windows CSP<br>Direct-called library for PKCS#11 under all Windows platform</td></tr>
+          <tr><td><b>Standards</b></td><td>X.509 v3 Certificate Storage, SSL v3, IPSec, ISO 7816 compliant</td></tr>
+          <tr><td><b>Cryptographic Algorithms</b></td><td>RSA 1024/RSA 2048 bit<br>DES/3DES<br>AES 128 bit<br>SHA-1 / SHA-256</td></tr>
+          <tr><td><b>Cryptographic APIs </b></td><td>Microsoft Crypto API (CAPI)<br>PKCS#11</td></tr>
+          <tr><td><b>Flash Memory</b></td><td>1MB, 2MB up to 8MB</td></tr>
+          <tr><td><b>Flash Endurance</b></td><td>At least 20,000 write/erase cycles</td></tr>
+          <tr><td><b>Processor</b></td><td>32 bit smart card chip</td></tr>
+          <tr><td><b>Memory Space</b></td><td>64KB (EEPROM)</td></tr>
+          <tr><td><b>Endurance</b></td><td>At least 500,000 write/erase cycles</td><tr>
+          <tr><td><b>Data Retention</b></td><td>More than 10 years</td></tr>
+          <tr><td><b>Connectivity</b></td><td>USB 2.0 full speed, Connector type A</td></tr>
+          <tr><td><b>Interface</b></td><td>ISO 7816</td><tr>
+          <tr><td><b>Power Consumption</b></td><td>Less than 200mW</td></tr>
+          <tr><td><b>Operating Temperature</b></td><td>0°C ~ 70°C <br>(32°F ~ 158°F)</td></tr>
+          <tr><td><b>Storage Temperature</b></td><td>-20°C ~ 85°C<br>(-4°F ~ 185°F)</td></tr>
+          <tr><td><b>Humidity</b></td><td>0% ~ 100% without condensation</td></tr>
+          <tr><td><b>Water Resistance</b></td><td>IPX8 with glue injection (under evaluation)</td></tr>
+          </table>
+         <style>
+         tr:nth-child(2n){
+         background-color:transparent;
+         border: 1px solid #D7D7D7;
+         }
+         tr{
+         line-height:40px;
+         text-align: center;
+         background-color: transparent;         
+         }
+         </style>
+        <br><br>
           <a data-toggle="modal" data-target="#myModal"  style="padding: 15px 50px; cursor: pointer; color: white; background-color: #E9365A">Enquiry</a>
         <br><br><br><br>
-
-        
-
           <!-- ################################################################################################ -->
-        </div>      
-    </div>
+        </div>
+          <!-- ################################################################################################ -->
+        </div>
+    <!-- ################################################################################################ -->  
     <!-- ################################################################################################ -->
     <!-- ################################################################################################ -->
     <div class="sidebar one_quarter"> 
@@ -221,9 +243,9 @@
       <h3 style="color: #E9365A">Products</h3>
       <nav class="sdb_holder">
         <ul class="nav nav-tabs">
-          <li class="active"><a data-toggle="tab" href="#epass">E-pass 2003 (Auto)</a></li>
-           <li><a data-toggle="tab" href="#features">Features of E-Pass</a></li>
-           <li><a data-toggle="tab" href="#specification">Specification of E-Pass</a></li> 
+          <li class="active"><a data-toggle="tab" href="#epass">ePass 2003(Auto)</a></li>
+           <li><a data-toggle="tab" href="#features">Features of ePass</a></li>
+           <li><a data-toggle="tab" href="#specifi">Specification</a></li> 
         </ul>
       </nav>
       <div class="sdb_holder">
@@ -252,33 +274,32 @@
         </div>
         <div class="modal-body">
           <div class="form-area">  
-        <form role="form" action="enquiry" method="post">
-        <br style="clear:both">
+        <form:form action="order" method="POST" commandName="orderform">
+        
                      <div class="form-group">
                        <span style="color: white;font-weight: bolder;" >Select Product: </span>
-                       <select style="display: inline; display: inline;padding: 8px;color: black;font-weight: bolder;">
-                          <option value="select">-- SELECT --</option>
-						  <option value="dsc">Digital Signarure Certificates</option>
-						  <option value="safenet">SafeNet Token</option>
-						  <option value="epass">E-Pass Token</option>
-						  <option value="proxkey">WatchData Proxkey</option>
-						</select>
+                       <form:select path="product" style="display: inline; display: inline;padding: 8px; color: black;font-weight: bolder;">
+                          <form:option value="select">-- SELECT --</form:option>
+						  <form:options items="${product}" />						  						  					
+						</form:select>
                     </div>
     				<div class="form-group">
-						<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+						<form:input path="name" class="form-control" placeholder="Name" />
+						<form:errors path="name" />
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
-					</div>
+                        <form:input path="mobile" class="form-control" placeholder="Mobile No" />
+						<form:errors path="mobile" />					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" id="emailid" name="emailid" placeholder="Emaill ID" required>
-					</div>
+                        <form:input path="emailid" class="form-control" placeholder="Email ID" />
+						<form:errors path="emailid" />					</div>
                     <div class="form-group">
-                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" rows="7"></textarea>                    
-                    </div>
+                         <form:textarea path="message" class="form-control" placeholder="Enter enquiry details" />
+						<form:errors path="message" />                  
+		   		  </div>
             
-        <button  style=" cursor: pointer; color: white; background-color: #E9365A" type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
-        </form>
+          <button  style="cursor: pointer; color: white; background-color: #E9365A" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+        </form:form>
     </div>
         </div>
       </div>
@@ -316,14 +337,15 @@
     <div class="one_third">
       
       <p class="btmspace-30">Stay up to date with Globosphere Technologies news and information by subscribing to our services.</p>
-      <form method="post" action="#">
-        <fieldset>
-          <legend>Newsletter:</legend>
-          <input class="btmspace-15" type="text" value="" placeholder="Name">
-          <input class="btmspace-15" type="text" value="" placeholder="Email">
-          <button type="submit" value="submit">Submit</button>
-        </fieldset>
-      </form>
+      <form:form action="subscribe" method="POST" commandName="subscribeform">
+       <legend style="color: #E9365A;">Newsletter:</legend>
+              <form:hidden path="subscribeid" />
+           <form:input class="btmspace-15" placeholder="Your Name" path="name" />
+			<form:errors path="name" />
+			<form:input  class="btmspace-15" placeholder="Your Email ID" path="emailid" />
+			<form:errors path="emailid" />         
+          <button type="submit" value="submit">Subscribe</button>     
+      </form:form>
     </div>
     <!-- ################################################################################################ -->
   </footer>

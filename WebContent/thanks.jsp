@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Support | Globosphere Technologies Pvt Ltd</title>
+<title>Thanks | Globosphere Technologies Pvt Ltd</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="keywords" content="etoken, safnet etoken, gemalto etoken, safnet, gemalto, etoken pro, etoken 5110, etoken 5200, etoken 5700, aladin etoken, etoken pro 72k, etoken pro 32k, safnet etoken 5110, safnet etoken 5100, usb etoken, usb token, etoken driver, safnet etoken driver">
@@ -117,7 +117,7 @@
           
         </ul>
       </li>
-      <li  class="active"><a href="support">Support</a></li>
+      <li><a href="support">Support</a></li>
       <li><a href="contact">Contact Us</a></li>
     </ul>
     <!-- ################################################################################################ -->
@@ -130,8 +130,9 @@
   <div id="breadcrumb" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul>
-      <li><a href="home">Home</a></li>
-      <li><a href="#">Support</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Company Profile</a></li>
+      <li><a href="#">Team</a></li>
     </ul>
     <!-- ################################################################################################ -->
   </div>
@@ -141,7 +142,20 @@
 <!-- ################################################################################################ -->
 <div class="wrapper row3">
   <main class="hoc container clear"> 
-     <img src="images/coming-soon.png" alt="Biometrics" style="width: 100%;"/>
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="content"> 
+      <!-- ################################################################################################ -->
+   <img src="images/thank-you.jpg" alt="Biometrics" style="width: 100%;"/>
+      <center><h2>${message}</h2></center>
+      <br>
+          <!-- ################################################################################################ -->
+      <!-- ################################################################################################ -->
+      <!-- ################################################################################################ -->
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
   </main>
 </div>
 <!-- ################################################################################################ -->
@@ -168,22 +182,13 @@
         <li><a href="#">Sitemap</a></li>
         <li><a href="#">Careers</a></li>
         <li><a href="#">Office Locations</a></li>
-        <li><a href="#">Partners</a></li>
-        
+        <li><a href="#">Partners</a></li>       
       </ul>
     </div>
     <div class="one_third">
       
       <p class="btmspace-30">Stay up to date with Globosphere Technologies news and information by subscribing to our services.</p>
-     <form:form action="subscribe" method="POST" commandName="subscribeform">
-       <legend style="color: #E9365A;">Newsletter:</legend>
-              <form:hidden path="subscribeid" />
-           <form:input class="btmspace-15" placeholder="Your Name" path="name" />
-			<form:errors path="name" />
-			<form:input  class="btmspace-15" placeholder="Your Email ID" path="emailid" />
-			<form:errors path="emailid" />         
-          <button type="submit" value="submit">Subscribe</button>     
-      </form:form>
+      
     </div>
     <!-- ################################################################################################ -->
   </footer>
@@ -210,3 +215,56 @@
 <script src="layout/scripts/jquery.flexslider-min.js"></script>
 </body>
 </html>
+<!-- ################################################################################################ -->
+    <style>
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->

@@ -1,12 +1,13 @@
-
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!DOCTYPE html>
 <html>
 <head>
-<title>Globosphere Technologies Pvt Ltd</title>
+<title>About Us | Globosphere Technologies Pvt Ltd</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="keywords" content="etoken, safnet etoken, gemalto etoken, safnet, gemalto, etoken pro, etoken 5110, etoken 5200, etoken 5700, aladin etoken, etoken pro 72k, etoken pro 32k, safnet etoken 5110, safnet etoken 5100, usb etoken, usb token, etoken driver, safnet etoken driver">
-    <meta name="description" content="Globosphere Technologies India Pvt Ltd">
+<meta name="description" content="Globosphere Technologies India Pvt Ltd">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 <link rel="icon" type="image/x-icon" href="images/globosphere.png"> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -203,14 +204,16 @@
     <div class="one_third">
       
       <p class="btmspace-30">Stay up to date with Globosphere Technologies news and information by subscribing to our services.</p>
-      <form method="post" action="#">
-        <fieldset>
-          <legend>Newsletter:</legend>
-          <input class="btmspace-15" type="text" value="" placeholder="Name">
-          <input class="btmspace-15" type="text" value="" placeholder="Email">
-          <button type="submit" value="submit">Submit</button>
-        </fieldset>
-      </form>
+       <form:form action="subscribe" method="POST" commandName="subscribeform">
+       <legend>Newsletter:</legend>
+              <form:hidden path="subscribeid" />
+           <form:input class="btmspace-15" placeholder="Your Name" path="name" />
+			<form:errors path="name" />
+			<form:input  class="btmspace-15" placeholder="Your Email ID" path="emailid" />
+			<form:errors path="emailid" />         
+          <button type="submit" value="submit">Subscribe</button>     
+      </form:form>
+
     </div>
     <!-- ################################################################################################ -->
   </footer>

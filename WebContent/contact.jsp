@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Contact US | Globosphere Technologies Pvt Ltd</title>
+<title>Contact Us | Globosphere Technologies Pvt Ltd</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="keywords" content="etoken, safnet etoken, gemalto etoken, safnet, gemalto, etoken pro, etoken 5110, etoken 5200, etoken 5700, aladin etoken, etoken pro 72k, etoken pro 32k, safnet etoken 5110, safnet etoken 5100, usb etoken, usb token, etoken driver, safnet etoken driver">
@@ -167,7 +167,7 @@
           </div>
           <div class="one_third">
             <label for="url">Phone</label>
-            <form:input path="mobile" />
+            <form:input path="mobile" placeholder="Mobile No"/>
             <form:errors path="mobile" /> 
           </div>
           <div class="block clear">
@@ -220,14 +220,12 @@
     <div class="one_third">
      <p class="btmspace-30">Stay up to date with Globosphere Technologies news and information by subscribing to our services.</p>
         <form:form action="subscribe" method="POST" commandName="subscribeform">
-       <legend>Newsletter:</legend>
-              <form:hidden path="subscribeid" />
+       <legend style="color: #E9365A;">Newsletter:</legend>
+           <form:hidden path="subscribeid" />
            <form:input class="btmspace-15" placeholder="Your Name" path="name" />
 			<form:errors path="name" />
 			<form:input  class="btmspace-15" placeholder="Your Email ID" path="emailid" />
-			<form:errors path="emailid" />
-          
-          
+			<form:errors path="emailid" />        
           <button type="submit" value="submit">Subscribe</button>
        
       </form:form>

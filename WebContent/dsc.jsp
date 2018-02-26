@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -147,7 +149,7 @@
           <!-- ################################################################################################ -->
           <h2 style="color: #E9365A">Class 2 Sign </h2>
 
-          <img class="imgl borderedbox inspace-5" style="height: 350px" src="images/dsc/CLASS2.png" alt="">
+          <img class="imgl borderedbox inspace-5" style="height: 350px" src="images/dsc/Class-2-Sign.jpg" alt="">
           <p>A Class 2 digital Signature Certificate now helps you to file your Income Tax Returns and Filing of E Forms with the Ministry of Corporate Affairs. Class 2A Digital Signature Certificates are Issued only to Individuals. File your Income Tax Return Hassle Free. No need to send Hand Signed Return acknowledgement copies to CPC Bangalore. Further E Filing of Income Tax Returns is mandatory for all assessee under the Income Tax Act who are liable to audit u/s 44AB (Turnover/Sales/ Gross receipts of Business Exceeding 1 Crore and 25 Lakhs in case of Professionals.</p>
           <p>Ministry of Corporate Affairs (MCA) 21 – E Governance Project required all documents to be filed by the corporates electronically by authenticating with a Digital Signature Certificate of Class 2 or above Category</p>
           <br><br>
@@ -170,7 +172,7 @@
           <!-- ################################################################################################ -->
           <h2 style="color: #E9365A">Class 2 Sign & Encrypt </h2>
 
-          <img class="imgl borderedbox inspace-5" style="height: 350px" src="images/dsc/class 2 encrpt.png" alt="">
+          <img class="imgl borderedbox inspace-5" style="height: 350px" src="images/dsc/Class-2- Combo.jpg" alt="Class-2- Combo">
           <p>A Class 2 digital Signature Certificate now helps you to file your Income Tax Returns and Filing of E Forms with the Ministry of Corporate Affairs. Class 2A Digital Signature Certificates are Issued only to Individuals. File your Income Tax Return Hassle Free. No need to send Hand Signed Return acknowledgement copies to CPC Bangalore. Further E Filing of Income Tax Returns is mandatory for all assessee under the Income Tax Act who are liable to audit u/s 44AB (Turnover/Sales/ Gross receipts of Business Exceeding 1 Crore and 25 Lakhs in case of Professionals.</p>
           <p>Ministry of Corporate Affairs (MCA) 21 – E Governance Project required all documents to be filed by the corporates electronically by authenticating with a Digital Signature Certificate of Class 2 or above Category</p>
           <br><br>
@@ -193,7 +195,7 @@
           <!-- ################################################################################################ -->
           <h2 style="color: #E9365A">Class 3 Sign</h2>
 
-          <img class="imgl borderedbox inspace-5" style="height: 350px" src="images/dsc/class 3.png" alt="">
+          <img class="imgl borderedbox inspace-5" style="height: 350px" src="images/dsc/Class-3-Sign.jpg" alt="Class-3-Sign">
           <p>Class 3 Digital Signature Certificate ensures convenient and enhanced Security in Filing E Tenders. A digital Signature Certificates authenticates the identity of the person filing the Tender Information. A Class 3 Digital signature Certificate provides highest Level of assurance in the RCAI (Root Certifying Authority of India) hierarchy setup under the Controller of Certifying Authority.</p>
           <p>Class 3 individual Certificates are issued only to individuals based on rigorous identity validation process. Further File your Patents, Trademarks & IPR documents securely on www.ipindia.nic.in</p>
           <br><br><br>
@@ -217,7 +219,7 @@
           <!-- ################################################################################################ -->
           <h2 style="color: #E9365A">Class 3 Sign & Encrypt</h2>
 
-          <img class="imgl borderedbox inspace-5" style="height: 350px" src="images/dsc/class%203%20encrypt.png" alt="">
+          <img class="imgl borderedbox inspace-5" style="height: 350px" src="images/dsc/Class-3-Combo.jpg" alt="Class-3-Combo">
           <p>Class 3 Digital Signature Certificate ensures convenient and enhanced Security in Filing E Tenders. A digital Signature Certificates authenticates the identity of the person filing the Tender Information. A Class 3 Digital signature Certificate provides highest Level of assurance in the RCAI (Root Certifying Authority of India) hierarchy setup under the Controller of Certifying Authority..</p>
           <p>Class 3 individual Certificates are issued only to individuals based on rigorous identity validation process. Further File your Patents, Trademarks & IPR documents securely on www.ipindia.nic.in</p>
           <br><br><br>
@@ -240,7 +242,7 @@
           <!-- ################################################################################################ -->
           <h2 style="color: #E9365A">DGFT (IET)</h2>
 
-          <img class="imgl borderedbox inspace-5" style="height: 350px" src="images/dsc/dgft.png" alt="">
+          <img class="imgl borderedbox inspace-5" style="height: 350px" src="images/dsc/Iet-DGFT-class-2-sign-3-year.png" alt="">
             <p>SafeEXIM, a solution developed exclusively for the Exporter-Importer community in India to enable them to interact and transact with the DGFT online with security and confidence on the DGFT Portal (www.dgft.gov.in). SafeEXIM uses advanced cryptographic technologies including Digital Certificates and Public Key Infrastructure (PKI) to bring one of the first-of-its-kind solutions to the Indian Market.</p>
             <p>SafeEXIM can be used only by an Exporter or Importer registered with the DGFT. It is not open to any third party. Any person from the EXIM organization who is authorized to transact with DGFT on behalf of the organization or sign any documents that need to be submitted to the DGFT can use SafeEXIM.</p>
           <br><br>
@@ -291,38 +293,37 @@
       <!-- Modal content-->
       <div class="modal-content" style="background-color: #002266;">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <button type="button" class="close" data-dismiss="modal" >&times;</button>
           <h4 class="modal-title" style="text-align: center; font-weight: bold; color: #E9365A;">Enquiry Form</h4>
         </div>
         <div class="modal-body">
           <div class="form-area">  
-        <form role="form" action="enquiry" method="post">
-        <br style="clear:both">
+        <form:form action="order" method="POST" commandName="orderform">
+        
                      <div class="form-group">
                        <span style="color: white;font-weight: bolder;" >Select Product: </span>
-                       <select style="display: inline; display: inline;padding: 8px;color: black;font-weight: bolder;">
-                          <option value="select">-- SELECT --</option>
-						  <option value="dsc">Digital Signarure Certificates</option>
-						  <option value="safenet">SafeNet Token</option>
-						  <option value="epass">E-Pass Token</option>
-						  <option value="proxkey">WatchData Proxkey</option>
-						</select>
+                       <form:select path="product" style="display: inline; display: inline;padding: 8px; color: black;font-weight: bolder;">
+                          <form:option value="select">-- SELECT --</form:option>
+						  <form:options items="${product}" />						  						  					
+						</form:select>
                     </div>
     				<div class="form-group">
-						<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+						<form:input path="name" class="form-control" placeholder="Name" />
+						<form:errors path="name" />
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
-					</div>
+                        <form:input path="mobile" class="form-control" placeholder="Mobile No" />
+						<form:errors path="mobile" />					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" id="emailid" name="emailid" placeholder="Emaill ID" required>
-					</div>
+                        <form:input path="emailid" class="form-control" placeholder="Email ID" />
+						<form:errors path="emailid" />					</div>
                     <div class="form-group">
-                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" rows="7"></textarea>                    
-                    </div>
+                         <form:textarea path="message" class="form-control" placeholder="Enter enquiry details" />
+						<form:errors path="message" />                  
+		   		  </div>
             
-        <button  style=" cursor: pointer; color: white; background-color: #E9365A" type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
-        </form>
+          <button  style="cursor: pointer; color: white; background-color: #E9365A" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+        </form:form>
     </div>
         </div>
       </div>
@@ -360,14 +361,16 @@
     <div class="one_third">
       
       <p class="btmspace-30">Stay up to date with Globosphere Technologies news and information by subscribing to our services.</p>
-      <form method="post" action="#">
-        <fieldset>
-          <legend>Newsletter:</legend>
-          <input class="btmspace-15" type="text" value="" placeholder="Name">
-          <input class="btmspace-15" type="text" value="" placeholder="Email">
-          <button type="submit" value="submit">Submit</button>
-        </fieldset>
-      </form>
+       <form:form action="subscribe" method="POST" commandName="subscribeform">
+       <legend style="color: #E9365A;">Newsletter:</legend>
+              <form:hidden path="subscribeid" />
+           <form:input class="btmspace-15" placeholder="Your Name" path="name" />
+			<form:errors path="name" />
+			<form:input  class="btmspace-15" placeholder="Your Email ID" path="emailid" />
+			<form:errors path="emailid" />         
+          <button type="submit" value="submit">Subscribe</button>     
+      </form:form>
+
     </div>
     <!-- ################################################################################################ -->
   </footer>

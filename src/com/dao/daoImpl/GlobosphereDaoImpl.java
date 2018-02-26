@@ -1,6 +1,10 @@
 package com.dao.daoImpl;
 
+import java.util.List;
+
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -60,6 +64,15 @@ public class GlobosphereDaoImpl implements GlobosphereDao{
 		contact.setMobile(contactform.getMobile());
 		contact.setMessage(contactform.getMessage());
 		sessionFactory.openSession().saveOrUpdate(contact);
+	}
+	@Override
+	public List<Order> getOrder() {
+		// TODO Auto-generated method stub
+		Session session = sessionFactory.openSession();
+		Query q=session.createQuery("from Order");
+		List<Order> orders=q.list(); 
+		return orders;
+		
 	}
 
 	

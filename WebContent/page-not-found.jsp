@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -179,14 +181,15 @@
     <div class="one_third">
       
       <p class="btmspace-30">Stay up to date with Globosphere Technologies news and information by subscribing to our services.</p>
-      <form method="post" action="#">
-        <fieldset>
-          <legend>Newsletter:</legend>
-          <input class="btmspace-15" type="text" value="" placeholder="Name">
-          <input class="btmspace-15" type="text" value="" placeholder="Email">
-          <button type="submit" value="submit">Submit</button>
-        </fieldset>
-      </form>
+       <form:form action="subscribe" method="POST" commandName="subscribeform">
+       <legend>Newsletter:</legend>
+              <form:hidden path="subscribeid" />
+           <form:input class="btmspace-15" placeholder="Your Name" path="name" />
+			<form:errors path="name" />
+			<form:input  class="btmspace-15" placeholder="Your Email ID" path="emailid" />
+			<form:errors path="emailid" />         
+          <button type="submit" value="submit">Subscribe</button>     
+      </form:form>
     </div>
     <!-- ################################################################################################ -->
   </footer>

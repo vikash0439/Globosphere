@@ -18,6 +18,7 @@
 	<!-- Spring Web Mapping -->
      
     <context:component-scan  base-package="com.MainController" />
+    <context:annotation-config />
     
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">  
         <property name="prefix" value="/" />  
@@ -30,7 +31,7 @@
     <!-- Spring Hibernate Mapping -->
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://localhost:3306/globosphere" />
+		<property name="url" value="jdbc:mysql://localhost:3306/globosphere" />   
 		<property name="username" value="root" />
 		<property name="password" value="boss" />
 	</bean>
@@ -70,4 +71,20 @@
 	 <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
 		<property name="basename" value="/WEB-INF/messages" />
 	</bean>
+	
+	<!-- Mail mapping -->
+	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">  
+				  <property name="host" value="mail.globosphere.in" />  
+				    <property name="username" value="noreply@globosphere.in" />  
+				    <property name="password" value="globosphere.in@123" />  
+				   
+				    <property name="javaMailProperties">  
+				       <props>  
+				              <prop key="mail.smtp.auth">true</prop>  
+				           </props>  
+				    </property>  			  
+				</bean>  
+				<bean id="mailMail" class="com.mail.MailMail">  
+				    <property name="mailSender" ref="mailSender" />  
+				</bean> 
 </beans>

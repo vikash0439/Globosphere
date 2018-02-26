@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -336,33 +338,32 @@
         </div>
         <div class="modal-body">
           <div class="form-area">  
-        <form role="form" action="enquiry" method="post">
-        <br style="clear:both">
+        <form:form action="order" method="POST" commandName="orderform">
+        
                      <div class="form-group">
                        <span style="color: white;font-weight: bolder;" >Select Product: </span>
-                       <select style="display: inline; display: inline;padding: 8px;color: black;font-weight: bolder;">
-                          <option value="select">-- SELECT --</option>
-						  <option value="dsc">Digital Signarure Certificates</option>
-						  <option value="safenet">SafeNet Token</option>
-						  <option value="epass">E-Pass Token</option>
-						  <option value="proxkey">WatchData Proxkey</option>
-						</select>
+                       <form:select path="product" style="display: inline; display: inline;padding: 8px; color: black;font-weight: bolder;">
+                          <form:option value="select">-- SELECT --</form:option>
+						  <form:options items="${product}" />						  						  					
+						</form:select>
                     </div>
     				<div class="form-group">
-						<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+						<form:input path="name" class="form-control" placeholder="Name" />
+						<form:errors path="name" />
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
-					</div>
+                        <form:input path="mobile" class="form-control" placeholder="Mobile No" />
+						<form:errors path="mobile" />					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" id="emailid" name="emailid" placeholder="Emaill ID" required>
-					</div>
+                        <form:input path="emailid" class="form-control" placeholder="Email ID" />
+						<form:errors path="emailid" />					</div>
                     <div class="form-group">
-                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" rows="7"></textarea>                    
-                    </div>
+                         <form:textarea path="message" class="form-control" placeholder="Enter enquiry details" />
+						<form:errors path="message" />                  
+		   		  </div>
             
-        <button  style=" cursor: pointer; color: white; background-color: #E9365A" type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
-        </form>
+          <button  style="cursor: pointer; color: white; background-color: #E9365A" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+        </form:form>
     </div>
         </div>
       </div>
@@ -400,14 +401,16 @@
     <div class="one_third">
       
       <p class="btmspace-30">Stay up to date with Globosphere Technologies news and information by subscribing to our services.</p>
-      <form method="post" action="#">
-        <fieldset>
-          <legend>Newsletter:</legend>
-          <input class="btmspace-15" type="text" value="" placeholder="Name">
-          <input class="btmspace-15" type="text" value="" placeholder="Email">
-          <button type="submit" value="submit">Submit</button>
-        </fieldset>
-      </form>
+       <form:form action="subscribe" method="POST" commandName="subscribeform">
+       <legend style="color: #E9365A;">Newsletter:</legend>
+              <form:hidden path="subscribeid" />
+           <form:input class="btmspace-15" placeholder="Your Name" path="name" />
+			<form:errors path="name" />
+			<form:input  class="btmspace-15" placeholder="Your Email ID" path="emailid" />
+			<form:errors path="emailid" />         
+          <button type="submit" value="submit">Subscribe</button>     
+      </form:form>
+
     </div>
     <!-- ################################################################################################ -->
   </footer>
